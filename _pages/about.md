@@ -26,7 +26,7 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Go to my Youtube channel!</h5>
 
-<p>I've been trying to upload my book-reading records as a daily routine! <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"></a>.</p>
+<p>I've been trying to upload my book-reading records as a daily routine! <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"></a></p>
 
 <a target="_blank" href="https://youtube.com/@recording_bk?si=FfvSaVwtjHvo-Mnv" class="btn btn-danger">Youtube</a>
 
