@@ -152,17 +152,20 @@ ga('send', 'pageview');
         </div>
         <div class="col-md-8 p-5 align-self-center text-center">
             {% assign categories_list = site.pages | where: "dir", "/categories/" %}
-            {% if categories_list.size == 0 %}
-                <p>No categories found</p>
+            {% if categories_list.first.title == null %}
+                {% for category in categories_list %}
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}{{ category.url }}">{{ category.title | camelcase }} ({{ site.tags[category.title].size }})</a>
+                {% endfor %}
             {% else %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}{{ category.url | remove: 'index.html' }}">{{ category.title | camelcase }}</a>
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}{{ category.url }}">{{ category.title | camelcase }} ({{ category.posts.size }})</a>
                 {% endfor %}
             {% endif %}
             {% assign categories_list = nil %}
         </div>
     </div>
 </div>
+
 
 <!-- Begin Footer
 ================================================== -->
