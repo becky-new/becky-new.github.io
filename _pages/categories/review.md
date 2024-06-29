@@ -1,5 +1,5 @@
 ---
-title: "review"
+title: category-review
 layout: archive
 permalink: categories/rv
 author_profile: true
