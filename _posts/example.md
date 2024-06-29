@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Hi"
+title: Hi
 author: Becky
-categories: Ds
-tags: [red, yellow]
+categories: Datascience
+tags:
+  - red
+  - yellow
 ---
 
 
