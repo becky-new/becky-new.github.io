@@ -19,6 +19,10 @@ comments: true
 
 <p>Blog theme document <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
 
+<p>Picture from unsplash.</p>
+  
+<p>Icon from Flaticon.</p>
+  
 </div>
 
 <div class="col-md-4">
