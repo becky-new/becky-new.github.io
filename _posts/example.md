@@ -3,7 +3,7 @@ layout: post
 title: Hi
 author: Becky
 categories:
-  - Datascience
+  - datascience
 tags:
   - red
   - yellow
