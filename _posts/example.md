@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hi
+title: 2024-06-29-Hi
 author: Becky
 categories:
   - datascience
