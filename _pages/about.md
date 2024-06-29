@@ -17,11 +17,7 @@ comments: true
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 <h4>Documentation</h4>
 
-<p>Blog theme is this <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
-
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<p>Blog theme document <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
 
 </div>
 
@@ -30,7 +26,7 @@ comments: true
 <div class="sticky-top sticky-top-80">
 <h5>Go to my Youtube channel!</h5>
 
-<p>I've been trying to upload my book-reading records as a daily routine! <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p>I've been trying to upload my book-reading records as a daily routine! <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"></a>.</p>
 
 <a target="_blank" href="https://youtube.com/@recording_bk?si=FfvSaVwtjHvo-Mnv" class="btn btn-danger">Youtube</a>
 
