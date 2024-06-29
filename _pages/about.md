@@ -3,13 +3,13 @@ layout: page
 title: Becky Kim
 permalink: /about
 comments: true
-published: true
+published: false
 ---
 
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hi, I'm a uni student who lives in South Korea. I'll post my projects, experiences, and study process with tips about biomedical data science and cognitive neuroscience.</p>
+<p>Hi, I'm a university student who lives in South Korea. I'll post my projects, experiences, and study process with tips about biomedical data science and cognitive neuroscience.</p>
 
 <p>Even though this git blog has to be renewed asap, I don't know much about github and langauges such as CSS, Javascript, Ruby....</p>
   
@@ -31,9 +31,9 @@ published: true
 <div class="sticky-top sticky-top-80">
 <h5>Go to my Youtube channel!</h5>
 
-<p>I've been trying to upload my daily life as vlog form to share my driving force in life routine. <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p>I've been trying to upload my book-reading records as everyday routine. <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="https://youtube.com/@hiUbeckyS2?si=cgs7HE8KtmHmx3Tn" class="btn btn-danger">Youtube</a>
+<a target="_blank" href="https://www.youtube.com/channel/UCt5cw9mpP0AfA0W0ViTe4Cw" class="btn btn-danger">Youtube</a>
 
 </div>
 </div>
