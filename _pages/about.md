@@ -3,7 +3,6 @@ layout: page
 title: Becky Kim
 permalink: /about
 comments: true
-published: false
 ---
 
 <div class="row justify-content-between">
@@ -18,7 +17,7 @@ published: false
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 <h4>Documentation</h4>
 
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
+<p>Blog theme is this <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
 
 <h4>Questions or bug reports?</h4>
 
@@ -31,9 +30,9 @@ published: false
 <div class="sticky-top sticky-top-80">
 <h5>Go to my Youtube channel!</h5>
 
-<p>I've been trying to upload my book-reading records as everyday routine. <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p>I've been trying to upload my book-reading records as a daily routine! <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
 
-<a target="_blank" href="https://www.youtube.com/channel/UCt5cw9mpP0AfA0W0ViTe4Cw" class="btn btn-danger">Youtube</a>
+<a target="_blank" href="https://youtube.com/@recording_bk?si=FfvSaVwtjHvo-Mnv" class="btn btn-danger">Youtube</a>
 
 </div>
 </div>
