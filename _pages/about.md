@@ -8,13 +8,13 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hi, I'm a university student who lives in South Korea. I'll post my projects, experiences, and study process with tips about biomedical data science and cognitive neuroscience.</p>
+<p>Hi, I'm a university student who lives in South Korea. I'll post my projects, experiences, and study process with tips about biomedical data science.(plus, my trivial records) </p>
 
-<p>Even though this git blog has to be renewed asap, I don't know much about github and langauges such as CSS, Javascript, Ruby....</p>
-  
 <p>Languages: Python, Matlab, R, Java(little)</p>
   
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+<p>Interests: Datascience, Psychology, Reading, and Drawing!</p>
+  
+<p class="mb-5"><img class="shadow-lg" src="https://images.unsplash.com/photo-1454789548928-9efd52dc4031?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="nasaimage" /></p>
 <h4>Documentation</h4>
 
 <p>Blog theme document <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
