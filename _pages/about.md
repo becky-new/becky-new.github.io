@@ -8,7 +8,7 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>Hi, I'm a university student who lives in South Korea. I'll post my projects, experiences, and study process with tips about biomedical data science.(plus, my trivial records) </p>
+<p>Hi, I'm a university student who lives in South Korea. I'll post my projects, experiences, and study process with tips about biomedical data science.(plus, my trivial records) I want to share my knowledge and useful tips, making the world better than yesterday~ :D </p>
 
 <p>Languages: Python, Matlab, R, Java(little)</p>
   
