@@ -2,7 +2,8 @@
 layout: post
 title: Hi
 author: Becky
-categories: Datascience
+categories:
+  - Datascience
 tags:
   - red
   - yellow
