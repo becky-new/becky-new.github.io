@@ -30,6 +30,7 @@ description: "Github blog making #1"
 
 
 
+
 ### 2. Jekyll 테마 찾기  
 
 Jekyll은 텍스트 파일을 블로그 형식으로 바꾸어주는 사이트 같은 것이다. Jekyll 테마는 정\~~말 많다. 취향인 걸 골라서 쓰면 되는데, 이때 예쁘기만 하다고 받기보다는 가공하기 좋은 걸 다운받는 게 낫다.  
@@ -38,13 +39,14 @@ Jekyll은 텍스트 파일을 블로그 형식으로 바꾸어주는 사이트 �
 
 Jekyll 테마 사이트는 아래와 같다.  
 
-* http://jekyllthemes.org/  
-* https://jekyllthemes.io/  
-* 이건 다른 분이 정리해둔 추천 테마 10가지 https://imsoftpro.tistory.com/74  
+* [http://jekyllthemes.org/](http://jekyllthemes.org/)  
+* [https://jekyllthemes.io/](https://jekyllthemes.io/)  
+* 이건 다른 분이 정리해둔 추천 테마 10가지 [https://imsoftpro.tistory.com/74](https://imsoftpro.tistory.com/74)  
 
 나는 3번째 링크의 Mediumish 테마를 사용하고 있다. 물론 다른 Jekyll 테마 사이트를 찾아보다가 발견한 것이지만, 깔끔하고 보기 좋아서 사용하게 되었다.  
 
 어쨌든, 마음에 드는 Jekyll 테마를 찾자!  
+
 
 
 
@@ -57,6 +59,7 @@ Jekyll 테마 사이트는 아래와 같다.
 
 
 위 이미지처럼 내 깃허브에 folk를 만들거나, 다운로드 후 레포지토리를 추가하는 방식으로 테마를 가져올 수 있다.  
+
 
 
 
@@ -82,6 +85,7 @@ Jekyll 테마 사이트는 아래와 같다.
 
 
 
+
 ### 5. 사이트 배포  
 
 이름을 수정하면, 이제 공개적으로 블로그를 운영하기 위해 페이지를 배포해야 한다.  
@@ -95,6 +99,7 @@ Pages 설정에 들어가면,
 
 이런 페이지를 볼 수 있다.  
 visit site로는 내 블로그를 직접 볼 수 있다. (물론 주소로도 들어갈 수 있다!) 그 전에 아래 빨간 상자도 저렇게 되도록 체크해준다.  
+
 
 
 
