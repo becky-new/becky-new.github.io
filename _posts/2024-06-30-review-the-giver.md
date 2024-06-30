@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "[Book review] The Giver"
+title: '[Book review] The Giver'
 author: becky
-categories: [ review ]
-tags: [book,독후감]
-image: https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9780544442207.jpg
-description: "재미있는 디스토피아"
+categories:
+  - review
+tags:
+  - book
+  - 독후감
+image: 'https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9780544442207.jpg'
+description: 재미있는 디스토피아
 ---
 
 ## [The Giver], Lois Lowry  
@@ -38,4 +41,3 @@ description: "재미있는 디스토피아"
 
 
 [Default Button](#){: .btn .btn--primary }
-
