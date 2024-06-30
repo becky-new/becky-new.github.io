@@ -11,7 +11,7 @@ image: 'https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9780544442207.jpg'
 description: 재미있는 디스토피아
 ---
 
-## [The Giver], Lois Lowry  
+## [The Giver] Lois Lowry  
 
 
 1월 매일 30분씩 독서하기를 시작한 이후 2번째로 읽었던 책이다. 거의 6개월이 지나서야 독후감을 쓰게 됐지만..., 지금까지 읽은 책이 꽤 되니 하나씩 밀린 독후감을 작성해보겠다. 기억이 구체적으로 나는 건 아니라 틀린 내용이 있을 수 있는 점 참고해주길 바란다.  
