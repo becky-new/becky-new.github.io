@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "[깃 블로그] 1: 생성해보자"
+title: '[깃 블로그] 1: 생성해보자'
 author: becky
-categories: [ tip ]
-tags: [git, blog]
-image: https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-description: "Github blog making #1"
+categories:
+  - tip
+tags:
+  - git
+  - blog
+image: >-
+  https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+description: 'Github blog making #1'
 ---
 
 ## [깃 블로그]를 생성해보자 \#1  
@@ -118,4 +122,4 @@ visit site로는 내 블로그를 직접 볼 수 있다. (물론 주소로도 �
   
 
 
-[Default Button](#){: .btn .btn--primary }
+[Scroll to top ↑](#){: .btn .btn--primary }  
