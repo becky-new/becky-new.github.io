@@ -40,4 +40,4 @@ description: 재미있는 디스토피아
 
 
 
-[Default Button](#){: .btn .btn--primary }
+[Scroll to top ↑](#){: .btn .btn--primary }  
