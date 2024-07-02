@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "[Github blog] 2: 글을 작성해보자 (Markdown 마크다운 편)"
+title: '[Github blog] 2: 글을 작성해보자 (Markdown 마크다운 편)'
 author: becky
-categories: [ tip ]
-tags: [git, blog]
-image: https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-description: "Github blog making #2"
+categories:
+  - tip
+tags:
+  - git
+  - blog
+image: >-
+  https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+description: 'Github blog making #2'
 ---
 
 ## [깃 블로그]에 글을 작성해보자 \#2  
@@ -66,6 +70,12 @@ Jekyll을 활용한 깃 블로그에 작성되는 글은 대부분 **Markdown** 
 볼드체는 `*`를 2번 사용하고, 이텔릭체는 `*`를 1번 문자 앞뒤로 사용하면 된다.  
 예를 들어, '\*\*이건 볼드체고요\*\*, \*이건 이텔릭체입니다*'라고 작성한다면 **이건 볼드체고요**, *이건 이텔릭체입니다*라고 나오게 된다. 참고로 `*`를 3번 쓰면 볼드 겸 이텔릭체가 된다. ***이렇게***.   
 
+```  
+**이건 볼드체고요**  
+*이건 이텔릭체입니다*  
+***이건 전부 다.***  
+```  
+
 
 ---  
 ### 취소선, 밑줄, 글자색  
@@ -77,6 +87,12 @@ Jekyll을 활용한 깃 블로그에 작성되는 글은 대부분 **Markdown** 
 '\<span style="color:green">색 넣기</span>' <span style="color:green">색 넣기</span> 로 적용이 가능하다. 여기서 **color는 컬러코드로 지정해줄 수 있다.**   
 \#888888로 지정해보자. <span style="color:#888888">이렇게!</span>
 
+```  
+~~취소합시다~~  
+<u>밑줄입니다</u>  
+<span style="color:#888888">색 넣기입니다</span>  
+```  
+
 
 ---  
 ### 하이퍼링크  
@@ -85,6 +101,12 @@ Jekyll을 활용한 깃 블로그에 작성되는 글은 대부분 **Markdown** 
 예를 들어, '\[내 깃블로그 주소](https://becky-new.github.io/)' 이렇게 작성한다면 [내 깃블로그 주소](https://becky-new.github.io/)가 이렇게 하이퍼링크로 삽입되어 나타난다.  
 
 참고로, 그냥 링크만 붙여 넣고 싶다면 <링크>로 넣을 수도 있다.
+
+
+```  
+<링크입니다>  
+[링크 설명입니다](링크)  
+```  
 
 
 ---  
@@ -98,6 +120,10 @@ Jekyll을 활용한 깃 블로그에 작성되는 글은 대부분 **Markdown** 
 
 이런 이미지가 나타나게 된다.  
 
+```  
+![이미지](이미지링크)  
+```  
+
 
 ---  
 ### 인용문  
@@ -108,6 +134,9 @@ Jekyll을 활용한 깃 블로그에 작성되는 글은 대부분 **Markdown** 
 
 이렇게 나온다.  
 
+```  
+> 안녕하세요? 인용문입니다.  
+```  
 
 ---  
 ### 리스트  
@@ -161,6 +190,4 @@ Jekyll을 활용한 깃 블로그에 작성되는 글은 대부분 **Markdown** 
 
 
 
-[Scroll to top ↑](#){: .btn .btn--primary }  
-
-
+[Scroll to top ↑](#){: .btn .btn--primary }
