@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[깃 블로그] 2: 글을 작성해보자 (Markdown 마크다운 편)"
+title:  "[Github blog] 2: 글을 작성해보자 (Markdown 마크다운 편)"
 author: becky
 categories: [ tip ]
 tags: [git, blog]
