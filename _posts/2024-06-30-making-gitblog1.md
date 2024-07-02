@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[깃 블로그] 1: 생성해보자'
+title: '[Github blog] 1: 생성해보자'
 author: becky
 categories:
   - tip
