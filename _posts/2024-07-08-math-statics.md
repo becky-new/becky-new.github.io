@@ -72,7 +72,8 @@ use_math: true
 
 * Probability set function의 조건 3가지  
   1. $P(C) \geq 0, \forall C \in B$ (non-negativity)  
-  2. $P(\mathcal{C})
+  2. $P(\mathcal{C}) = 1$ (normality)  
+  3. $C_1, C_2, \cdots \in \mathcal{B} s.t. C_m \cup C_n = \emptyset, \forall m \ne n
 
 
 
