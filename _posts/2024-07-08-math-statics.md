@@ -53,8 +53,8 @@ use_math: true
 ### Integral  
 
 * $\iint_C f(x,y) \, dxdy$  
-* k-fold integration: $\iint \cdots \int f(x_1,x_2,\cdots,x_k) \, dx_1,dx_2,\cdots dx_k$  
-* 
+* k-fold integration: $\iint \cdots \int f(x_1,x_2,\cdots,x_k) \, dx_1dx_2 \cdots dx_k$  
+* $Q(C)= \int_c \cdots \int \, dx_1dx_2 \cdots dx_n$이라고 하자. $C= \{(x_1,x_2, \cdots, x_n): 0 \leq x_1 \leq x_2 \leq \cdots \leq x_n \leq 1 \}$이면, $Q(C)= \int_{0}^{1} \int_{0}^{x_n} \cdots \int_{0}^{x_3} \int_{0}^{x_2} \, dx_1dx_2 \cdots dx_(n-1)dx_n = 1/n!$  
 
 
 
