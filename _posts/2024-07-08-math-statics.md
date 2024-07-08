@@ -55,18 +55,18 @@ use_math: true
 
 * $\iint_C f(x,y) \, dxdy$  
 * k-fold integration: $\iint \cdots \int f(x_1,x_2,\cdots,x_k) \, dx_1dx_2 \cdots dx_k$  
-* $Q(C)= \int_c \cdots \int \, dx_1dx_2 \cdots dx_n$이라고 하자. $C= \{(x_1,x_2, \cdots, x_n): 0 \leq x_1 \leq x_2 \leq \cdots \leq x_n \leq 1 \}$이면, $Q(C)= \int_{0}^{1} \int_{0}^{x_n} \cdots \int_{0}^{x_3} \int_{0}^{x_2} \, dx_1dx_2 \cdots dx_(n-1)dx_n = $\frac{1}{n!}$  
+* $Q(C)= \int_c \cdots \int \, dx_1dx_2 \cdots dx_n$이라고 하자. $C= \{(x_1,x_2, \cdots, x_n): 0 \leq x_1 \leq x_2 \leq \cdots \leq x_n \leq 1 \}$이면, $Q(C)= \int_{0}^{1} \int_{0}^{x_n} \cdots \int_{0}^{x_3} \int_{0}^{x_2} \, dx_1dx_2 \cdots dx_{n-1}dx_n = \frac{1}{n!}$  
 
 
 ### Probability Set Function  
 
-* $\sigma \_field$의 조건 3가지  
+* $\sigma \_ field$의 조건 3가지  
   1. $\emptyset \in B$  
   2. $C \in B \Rightarrow C^c \in B$ (closed under complement   
   3. $C_1,C_2, \cdots \in B \Rightarrow \bigcup_{i=1}^{\infty} C_i \in (B)$ (closed under countable union)  
     * countable: 정수와 1:1 매핑이 가능함.  
     
-* Borel $\sigma \_field$: $\Re$의 모든 열린 구간의 집합 I에 의해 생성된 $\sigma \_field$    
+* Borel $\sigma \_ field$: $\Re$의 모든 열린 구간의 집합 I에 의해 생성된 $\sigma \_ field$    
 
 
 
