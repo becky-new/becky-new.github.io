@@ -63,7 +63,11 @@ use_math: true
 * $\sigma \_field$의 조건 3가지  
   1. $\emptyset \in B$  
   2. $C \in B \Rightarrow C^c \in B$ (closed under complement   
-  3. 
+  3. $C_1,C_2, \cdots \in B \Rightarrow \bigcup_{i=1}^{\infty} C_i \in (B)$ (closed under countable union)  
+    * countable: 정수와 1:1 매핑이 가능함.  
+    
+* Borel $\sigma \_field$: $\Re$의 모든 열린 구간의 집합 I에 의해 생성된 $\sigma \_field$    
+
 
 
 
