@@ -80,6 +80,8 @@ use_math: true
   1. $P(C) = 1- P(C^C), \forall C \in \mathscr{B}$  
   2. $P(\emptyset) = 0$  
   3. $C_1 \subset C_2 \Rightarrow P(C_1) \leq P(C_2)  
+  4. $0 \leq P(C) \leq 1, \forall C \in \mathscr{B}  
+  5. $P(C_1 \cup C_2) = P(C_1) + P(C_2) - P(C_1 \cap C_2)  
   
 
 
