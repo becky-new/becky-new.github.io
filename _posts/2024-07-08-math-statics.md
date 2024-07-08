@@ -20,7 +20,7 @@ use_math: true
 ### 기본 개념  
 
 * Statistical(Random) experiment: 실험 수행 전 결과를 100% 확신할 수 없는 실험. 동전을 던진다고 했을 때, 확률이 얼마가 될지는 예측할 수 있어도 반드시 앞면이 나올 것이라 말할 수는 없다.  
-* Sample space $\Omega$: 표본 공간. Random experiment의 가능한 모든 경우를 모아둔 집합이다.  
+* Sample space $\Omega (혹은 \mathscr{C})$: 표본 공간. Random experiment의 가능한 모든 경우를 모아둔 집합이다.  
 * Event: sample의 부분 집합.  
 
 
@@ -62,18 +62,18 @@ use_math: true
 ### Probability Set Function  
 
 * $\sigma$\_field의 조건 3가지  
-  1. $\emptyset \in B$  
-  2. $C \in B \Rightarrow C^C \in B$ (closed under complement)   
-  3. $C_1,C_2, \cdots \in B \Rightarrow \bigcup_{i=1}^{\infty} C_i \in (B)$ (closed under countable union)  
+  1. $\emptyset \in \mathscr{B}$  
+  2. $C \in \mathscr{B} \Rightarrow C^C \in \mathscr{B}$ (closed under complement)   
+  3. $C_1,C_2, \cdots \in \mathscr{B} \Rightarrow \bigcup_{i=1}^{\infty} C_i \in (B)$ (closed under countable union)  
     * countable: 정수와 1:1 매핑이 가능함.  
     
-* Borel $\sigma$\_field: $\Re$의 모든 열린 구간의 집합 I(I를 포함하는 가장 작은 $\sigma$\_field 집합)에 의해 생성된 $\sigma$\_field    
+* Borel $\sigma$\_field: $\Re$의 모든 열린 구간의 집합 $\mathscr{I}$($\mathscr{I}$를 포함하는 가장 작은 $\sigma$\_field 집합)에 의해 생성된 $\sigma$\_field    
 
 
 * Probability set function의 조건 3가지  
-  1. $P(C) \geq 0, \forall C \in B$ (non-negativity)  
-  2. $P(\mathcal{C}) = 1$ (normality)  
-  3. $C_1, C_2, \cdots \in \mathcal{B} s.t. C_m \cup C_n = \emptyset, \forall m \ne n
+  1. $P(C) \geq 0, \forall C \in  \mathscr{B}$ (non-negativity)  
+  2. $P(\mathscr{C}) = 1$ (normality)  
+  3. $C_1, C_2, \cdots \in \mathscr{B} s.t. C_m \cup C_n = \emptyset, \forall m \ne n$일 때, $P(\bigcup_{i=1}^{\infty} C_n) = \sum_{i=1}^{\infty} P(C_i)$ (countable additivity)  
 
 
 
