@@ -32,7 +32,7 @@ use_math: true
 * $C_1 \cup C_2$: $C_1$과 $C_2$의 합집합.  
   + $\bigcup_{k=1}^{\infty} C_k = C_1 \cup C_2 \cup C_3 \cdots \cup C_n$  
   
-  + $C_k= {x: 1/(k+1) \leq x \leq 1}$일 때, $\bigcup_{k=1}^{\infty} C_k= {x: 0 < x \leq 1}$  
+  + $C_k= \{x: 1/(k+1) \leq x \leq 1\}$일 때, $\bigcup_{k=1}^{\infty} C_k= \{x: 0 < x \leq 1\}$  
     - 임의의 k에 대해 $1/(k+1) > 0$이므로 0과 같을 수는 없다.  
     
     
@@ -40,7 +40,7 @@ use_math: true
 * $C_1 \cap c_2$: $C_1$과 $C_2$의 교집합.  
   + $\bigcap_{k=1}^{\infty} C_k = C_1 \cap C_2 \cap C_3 \cdots \cap C_n$  
   
-  + $C_k= {x: 0 < x < 1/k}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
+  + $C_k= \{x: 0 < x < 1/k\}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
     - 임의의 x에 대해, $1/k < x$인 0보다 큰 k가 존재한다. (x를 아무리 작게 해도 그것보다 작아지도록 만드는 k는 존재한다.)  
     
 ---
