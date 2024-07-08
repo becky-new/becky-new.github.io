@@ -29,11 +29,11 @@ use_math: true
 * $C_1 \subset C_2$: $C_1$은 $C_2$의 subset(부분집합).  
 * Null(empty) set: $\emptyset$으로 표현되며, set C가 아무 요소가 없을 때 공집합이라고 한다.  
 * $C_1 \cup C_2$: $C_1$과 $C_2$의 합집합.  
-  * $\bigcup_{k=1}^{\infty} C_k = C_1 \cup C_2 \cup C_3 ... \cup C_n$  
-  * 
+  + $\bigcup_{k=1}^{\infty} C_k = C_1 \cup C_2 \cup C_3 ... \cup C_n$  
+  + $C_k= {x: 1/(k+1) \leq x \leq 1}$일 때, $\bigcup_{k=1}^{\infty} C_k= {x: 0 < x \leq 1}$  
 * $C_1 \cap c_2$: $C_1$과 $C_2$의 교집합.  
-  * $\bigcap_{k=1}^{\infty} C_k = C_1 \cap C_2 \cap C_3 ... \cap C_n$  
-
+  + $\bigcap_{k=1}^{\infty} C_k = C_1 \cap C_2 \cap C_3 ... \cap C_n$  
+  + $C_k= {x: 0 < x < 1/k}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
 
 
 
