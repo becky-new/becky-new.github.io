@@ -53,7 +53,7 @@ use_math: true
 ### Integral  
 
 * $\iint_C f(x,y) \, dxdy$  
-* k-fold integration: $\iint \cdots \int f(x_1,x_2,\cdots,x_k) \, dx_1,dx_2,\cdotsdx_k$  
+* k-fold integration: $\iint \cdots \int f(x_1,x_2,\cdots,x_k) \, dx_1,dx_2,\cdots dx_k$  
 * 
 
 
