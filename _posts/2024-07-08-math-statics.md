@@ -26,8 +26,9 @@ use_math: true
 
 ### Set Theory  
 
-* $C_1 \subset C_2$: C_1은 C_2의 subset(부분집합)이다.  
-* Null(empty) set: \emptyset
+* $C_1 \subset C_2$: C_1은 C_2의 subset(부분집합).  
+* Null(empty) set: \emptyset으로 표현되며, set C가 아무 요소가 없을 때 공집합이라고 한다.  
+* $C_1 \bigcup C_2$: C_1과 C_2의 합집합.
 
 
 
