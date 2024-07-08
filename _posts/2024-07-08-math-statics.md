@@ -70,6 +70,9 @@ use_math: true
 * Borel $\sigma$\_field: $\Re$의 모든 열린 구간의 집합 I(I를 포함하는 가장 작은 $\sigma$\_field 집합)에 의해 생성된 $\sigma$\_field    
 
 
+* Probability set function의 조건 3가지  
+  1. $P(C) \geq 0, \forall C \in B$ (non-negativity)  
+  2. $P(\mathcal{C})
 
 
 
