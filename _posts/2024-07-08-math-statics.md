@@ -20,7 +20,7 @@ use_math: true
 ### 기본 개념  
 
 * Statistical(Random) experiment: 실험 수행 전 결과를 100% 확신할 수 없는 실험. 동전을 던진다고 했을 때, 확률이 얼마가 될지는 예측할 수 있어도 반드시 앞면이 나올 것이라 말할 수는 없다.  
-* Sample space $\Omega (혹은 \mathscr{C})$: 표본 공간. Random experiment의 가능한 모든 경우를 모아둔 집합이다.  
+* Sample space $\Omega$ (혹은 $\mathscr{C}$): 표본 공간. Random experiment의 가능한 모든 경우를 모아둔 집합이다.  
 * Event: sample의 부분 집합.  
 
 
@@ -75,6 +75,12 @@ use_math: true
   2. $P(\mathscr{C}) = 1$ (normality)  
   3. $C_1, C_2, \cdots \in \mathscr{B} s.t. C_m \cup C_n = \emptyset, \forall m \ne n$일 때, $P(\bigcup_{i=1}^{\infty} C_n) = \sum_{i=1}^{\infty} P(C_i)$ (countable additivity)  
 
+
+* Theorem  
+  1. $P(C) = 1- P(C^C), \forall C \in \mathscr{B}$  
+  2. $P(\emptyset) = 0$  
+  3. $C_1 \subset C_2 \Rightarrow P(C_1) \leq P(C_2)  
+  
 
 
 
