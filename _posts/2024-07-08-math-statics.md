@@ -20,7 +20,7 @@ use_math: true
 ### 기본 개념  
 
 * Statistical(Random) experiment: 실험 수행 전 결과를 100% 확신할 수 없는 실험. 동전을 던진다고 했을 때, 확률이 얼마가 될지는 예측할 수 있어도 반드시 앞면이 나올 것이라 말할 수는 없다.  
-* Sample space: 표본 공간. Random experiment의 가능한 모든 경우를 모아둔 집합이다.  
+* Sample space $\Omega$: 표본 공간. Random experiment의 가능한 모든 경우를 모아둔 집합이다.  
 * Event: sample의 부분 집합.  
 
 
@@ -38,10 +38,15 @@ use_math: true
   + $\bigcap_{k=1}^{\infty} C_k = C_1 \cap C_2 \cap C_3 ... \cap C_n$  
   
   + $C_k= {x: 0 < x < 1/k}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
-    - 임의의 x에 대해, $1/k < x$인 0보다 큰 k가 존재한다.  
+    - 임의의 x에 대해, $1/k < x$인 0보다 큰 k가 존재한다. (x를 아무리 작게 해도 그것보다 작아지도록 만드는 k는 존재한다.)  
+
+* $\overline{C}$: 표본 공간 $\Omega$의 부분 집합 C의 여집합(여사건)  
+
+* Point function: 정의역이 point일 때.  
+* Set function: 정의역이 set일 때.  
 
 
-###
+### 
 
 
 
