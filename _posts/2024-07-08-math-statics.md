@@ -26,8 +26,8 @@ use_math: true
 
 ### Set Theory  
 
-* \( C_1 \subseteq C_2 \)  
-* $C_1 \subseteq C_2$
+* $C_1 \subset C_2$: C_1은 C_2의 subset(부분집합)이다.  
+* Null(empty) set: \emptyset
 
 
 
