@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "[수리통계학 I] 1, 2강 요약 정리"
+title: '[수리통계학 I] 1, 2강 요약 정리'
 author: becky
-categories: [ datascience ]
-tags: [수리통계학, data science]
-image: https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+categories:
+  - datascience
+tags:
+  - 수리통계학
+  - data science
+image: >-
+  https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 use_math: true
 ---
 
@@ -42,7 +46,7 @@ use_math: true
 * $C_1 \cup C_2$: $C_1$과 $C_2$의 합집합.  
   + $\bigcup_{k=1}^{\infty} C_k = C_1 \cup C_2 \cup C_3 \cdots \cup C_n$  
   
-  + $C_k= \{ x: \frac{1}{k+1} \leq x \leq 1 \}$일 때, $\bigcup_{k=1}^{\infty} C_k= \{ x: 0 < x \leq 1 \}$  
+  + $C_k= \lbrace x: \frac{1}{k+1} \leq x \leq 1 \rbrace$일 때, $\bigcup_{k=1}^{\infty} C_k= \lbrace x: 0 < x \leq 1 \rbrace$  
     - 임의의 k에 대해 $\frac{1}{k+1} > 0$이므로 0과 같을 수는 없다.  
     
     
@@ -50,7 +54,7 @@ use_math: true
 * $C_1 \cap C_2$: $C_1$과 $C_2$의 교집합.  
   + $\bigcap_{k=1}^{\infty} C_k = C_1 \cap C_2 \cap C_3 \cdots \cap C_n$  
   
-  + $C_k= \{ x: 0 < x < \frac{1}{k} \}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
+  + $C_k= \lbrace x: 0 < x < \frac{1}{k} \rbrace$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
     - 임의의 x에 대해, $\frac{1}{k} < x$인 0보다 큰 k가 존재한다. (x를 아무리 작게 해도 그것보다 작아지도록 만드는 k는 존재한다.)  
     
 ---
@@ -65,7 +69,7 @@ use_math: true
 * $\iint_C f(x,y) \, dxdy$  
 * k-fold integration: $\iint \cdots \int f(x_1,x_2,\cdots,x_k) \, dx_1dx_2 \cdots dx_k$  
 
-* $Q(C)= \int_c \cdots \int \, dx_1dx_2 \cdots dx_n$이라고 하자. $C= \{(x_1,x_2, \cdots, x_n): 0 \leq x_1 \leq x_2 \leq \cdots \leq x_n \leq 1 \}$이면, $Q(C)= \int_{0}^{1} \int_{0}^{x_n} \cdots \int_{0}^{x_3} \int_{0}^{x_2} \, dx_1dx_2 \cdots dx_{n-1}dx_n = \frac{1}{n!}$  
+* $Q(C)= \int_c \cdots \int \, dx_1dx_2 \cdots dx_n$이라고 하자. $C= \lbrace(x_1,x_2, \cdots, x_n): 0 \leq x_1 \leq x_2 \leq \cdots \leq x_n \leq 1 \rbrace$이면, $Q(C)= \int_{0}^{1} \int_{0}^{x_n} \cdots \int_{0}^{x_3} \int_{0}^{x_2} \, dx_1dx_2 \cdots dx_{n-1}dx_n = \frac{1}{n!}$  
 
 
 ### Probability Set Function  
@@ -101,11 +105,11 @@ use_math: true
   5. $P(C_1 \cup C_2) = P(C_1) + P(C_2) - P(C_1 \cap C_2)$  
     * <span style="color:#A2A2A2"> $C_1 \cup C_2 = C_1 \cup (C_1^C \cap C_2),  C_2= (C_1 \cap C_2) \cup (C_1^C \cap C_2)$ </span>  
   
-  6. $\{C_n\}$이 increasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcup_{n=1}^{\infty} C_n)$  
-  7. $\{C_n\}$이 decreasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcap_{n=1}^{\infty} C_n)$  
+  6. $\lbrace C_n \rbrace$이 increasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcup_{n=1}^{\infty} C_n)$  
+  7. $\lbrace C_n \rbrace$이 decreasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcap_{n=1}^{\infty} C_n)$  
 
 
-  8. $\{C_n\}$을 arbitrary sequence라고 하면, $P(\bigcup_{n=1}^{\infty} C_n) \leq \sum_{n=1}^{\infty} P(C_n)$  
+  8. $\lbrace C_n \rbrace$을 arbitrary sequence라고 하면, $P(\bigcup_{n=1}^{\infty} C_n) \leq \sum_{n=1}^{\infty} P(C_n)$  
 
 
 * Inclusion-exclusion formula  
@@ -165,6 +169,4 @@ $P(C_1 \cup C_2 \cup C_3 \cup \cdots) = P(C_1)P(C_2 \mid C_1)P(C_3 \mid {C_1 \ca
 
 ---  
 
-[Scroll to top ↑](#){: .btn .btn--primary }   
-
-
+[Scroll to top ↑](#){: .btn .btn--primary }
