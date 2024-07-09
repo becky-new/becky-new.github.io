@@ -109,7 +109,7 @@ x & \text{if } 0 \leq x < 1 \\  ,
 
 * Probability Mass Function (PMF) of a discrete r.v. $X$ with space $\mathscr{D}$: $P_X(x)= P(X=x), x \in \mathscr{D}$  
 
-* Support of X: $S_X= \{x: P_X(x) > 0 \}$  
+* Support of X: $S_X= \{{x: P_X(x) > 0 \}}$  
 
 
 
