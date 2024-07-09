@@ -101,7 +101,21 @@ use_math: true
 
 * Inclusion-exclusion formula  
 
-$P(C_1 \cup C_2 \cup \cdots \cup C_k) = p_1 - p_2 + p_3 - \cdots + (-1)^(k-1)p_k$  
+  + $P(C_1 \cup C_2 \cup \cdots \cup C_k) = p_1 - p_2 + p_3 - \cdots + (-1)^(k-1)p_k$  
+
+
+### Conditional Probability  
+
+* 조건부 확률 (Conditional Probability) : $C_1, C_2 \subset \mathscr{C}$일 때, $P= (C_2 | C_1) = \frac{P(C_2 \cap C_1)}{P(C_1)}, if P(C_1) > 0$  
+
+* 조건부 확률의 3가지 성질  
+  1. $P= (C_2 | C_1) \geq 0$ (non-negativity)  
+  2. $P(\bigcap_{i=2}^{\infty} C_i|C_1) = \sum_{i=2}^{\infty} P(C_i|C_1)  if C_2, C_3, \cdots are mutually disjoint$ (countable additivity)  
+  3. $P(C_1|C_1)= 1$ (normality)  
+
+
+
+
 
 
 
