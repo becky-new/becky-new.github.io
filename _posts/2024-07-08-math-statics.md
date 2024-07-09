@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[수리통계학 I] 1~2강 요약 정리"
+title:  "[수리통계학 I] 1, 2강 요약 정리"
 author: becky
 categories: [ datascience ]
 tags: [수리통계학, data science]
@@ -33,7 +33,7 @@ use_math: true
 * $C_1 \cup C_2$: $C_1$과 $C_2$의 합집합.  
   + $\bigcup_{k=1}^{\infty} C_k = C_1 \cup C_2 \cup C_3 \cdots \cup C_n$  
   
-  + $C_k= \{x: $\frac{1}{k+1} \leq x \leq 1\}$일 때, $\bigcup_{k=1}^{\infty} C_k= \{x: 0 < x \leq 1\}$  
+  + $C_k= \{x: \frac{1}{k+1} \leq x \leq 1\}$일 때, $\bigcup_{k=1}^{\infty} C_k= \{x: 0 < x \leq 1\}$  
     - 임의의 k에 대해 $\frac{1}{k+1} > 0$이므로 0과 같을 수는 없다.  
     
     
@@ -41,7 +41,7 @@ use_math: true
 * $C_1 \cap C_2$: $C_1$과 $C_2$의 교집합.  
   + $\bigcap_{k=1}^{\infty} C_k = C_1 \cap C_2 \cap C_3 \cdots \cap C_n$  
   
-  + $C_k= \{x: 0 < x < $\frac{1}{k}\}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
+  + $C_k= \{x: 0 < x < \frac{1}{k}\}$일 때, $\bigcap_{k=1}^{\infty} C_k= \emptyset$  
     - 임의의 x에 대해, $\frac{1}{k} < x$인 0보다 큰 k가 존재한다. (x를 아무리 작게 해도 그것보다 작아지도록 만드는 k는 존재한다.)  
     
 ---
@@ -73,16 +73,22 @@ use_math: true
 * Probability set function의 조건 3가지  
   1. $P(C) \geq 0, \forall C \in  \mathscr{B}$ (non-negativity)  
   2. $P(\mathscr{C}) = 1$ (normality)  
-  3. $C_1, C_2, \cdots \in \mathscr{B} s.t. C_m \cup C_n = \emptyset, \forall m \ne n$일 때, $P(\bigcup_{i=1}^{\infty} C_n) = \sum_{i=1}^{\infty} P(C_i)$ (countable additivity)  
+  3. $C_1, C_2, \cdots \in \mathscr{B}  s.t.  C_m \cup C_n = \emptyset, \forall m \ne n$일 때, $P(\bigcup_{i=1}^{\infty} C_n) = \sum_{i=1}^{\infty} P(C_i)$ (countable additivity)  
 
 
 * Theorem  
   1. $P(C) = 1- P(C^C), \forall C \in \mathscr{B}$  
+    * <style color=#888888> $C \cup C^C = \mathscr{C} and C \cap C^C = \emptyset$ </style>  
   2. $P(\emptyset) = 0$  
   3. $C_1 \subset C_2 \Rightarrow P(C_1) \leq P(C_2)$  
   4. $0 \leq P(C) \leq 1, \forall C \in \mathscr{B}$  
   5. $P(C_1 \cup C_2) = P(C_1) + P(C_2) - P(C_1 \cap C_2)$  
   
+
+
+
+
+
 
 
 
