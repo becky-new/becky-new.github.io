@@ -52,6 +52,7 @@ use_math: true
 
 ### Probability Functions  
 * Probability Mass Function (PMF): $P_X(d_i) = P(X= d_i), i=1, \cdots, m$  
+* PMF: 이산 확률 변수에서 특정 값에 대한 확률을 나타내는 함수  
 
 * Cumulative Distribution Function (CDF): $F_X(x)= P_X((-\infty, x\])= P(X \leq x)$  
 
@@ -109,7 +110,7 @@ x & \text{if } 0 \leq x < 1 \\  ,
 
 * Probability Mass Function (PMF) of a discrete r.v. $X$ with space $\mathscr{D}$: $P_X(x)= P(X=x), x \in \mathscr{D}$  
 
-* Support of X: $S_X= \{{x: P_X(x) > 0 \}}$  
+* Support of X: $S_X= \lbrace x: P_X(x) > 0 \rbrace$  
 
 
 
