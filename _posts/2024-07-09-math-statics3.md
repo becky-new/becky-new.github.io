@@ -79,7 +79,11 @@ $\textit{Sol}$
 X는 (0,1)의 continuous variable이라고 하고, $P_X\[(a,b)\] = b-a$  for, $0 < a < b < 1$이라 할 수 있다.  
 r.v. $X$의 CDF를 구하면 아래와 같다.
 
-$F_X(x)= 0 & \text{if } x < 0 \\ x & \text{if } 0 \leq x < 1 \\ 1 & \text{if } x \geq 1 \end{cases} $
+$F_X(x)= \begin{cases}
+0 & \text{if } x < 0 \\
+x & \text{if } 0 \leq x < 1 \\
+1 & \text{if } x \geq 1
+\end{cases} $
 
 
 
