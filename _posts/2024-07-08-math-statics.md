@@ -99,6 +99,9 @@ use_math: true
   8. $\{C_n\}$을 arbitrary sequence라고 하면, $P(\bigcup_{n=1}^{\infty} C_n) \leq \sum_{n=1}^{\infty} P(C_n)$  
 
 
+* Inclusion-exclusion formula  
+
+$P(C_1 \cup C_2 \cup \cdots \cup C_k) = p_1 - p_2 + p_3 - \cdots + (-1)^(k-1)p_k$  
 
 
 
