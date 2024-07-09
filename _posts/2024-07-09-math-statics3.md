@@ -57,7 +57,7 @@ use_math: true
 * Cumulative Distribution Function (CDF): $F_X(x)= P_X((-\infty, x\])= P(X \leq x)$  
 
 
-#### Example  
+#### Example 1  
 
 Fair dice를 던지는 경우를 X라고 해보자. X의 CDF는 어떻게 될까?   
 * Fair dice: $P_X(1)= P_X(2)= \cdots = P_X(6)= \frac{1}{6}$  
@@ -113,6 +113,18 @@ x & \text{if } 0 \leq x < 1 \\  ,
 * Support of X: $S_X= \lbrace x: P_X(x) > 0 \rbrace$  
 
 
+#### Example 1  
+
+Fair coin을 던진다고 하고, X를 앞면이 나오는 경우의 수라고 하자. 이때 X의 PMF는,  
+$P(X=x) = (\frac{1}{2})^{x-1} \frac{1}{2} = (\frac{1}{2})^x$ , $x= 1, 2, 3, \cdots $  
+
++ 이는 $2^(-x) I(x=1, 2, 3, \cdots)$ 으로 표현할 수 있다. $I(x)$는 indicator function이다.  
+
+
+#### Example 2  
+
+20개의 흰 공, 80개의 검은 공으로 총 100개의 공이 있다고 하자. 우리가 5개 공을 뽑을 때 흰 공의 개수를 X라고 하면, X의 PMF는  
+$P_X(x) = \frac{\binom{20}{x} \binom{80}{5-x}}{\binom{100}{5}} , x= 0, 1, 2, 3, 4, 5$  
 
 
 
