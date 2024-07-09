@@ -122,7 +122,7 @@ use_math: true
 $\textit{Sol^n}$  
 $C_1$: 5번째까지의 추출에서 스페이드 2개가 나오는 경우.  
 $C_2$: 6번째 추출에서 스페이드가 나오는 경우.  
-우리는 $P(C_1 \cap C_2)$를 구해야 하고 $P(C_1 \cap C_2) = P(C_2 \mid C_1)P(C_1)$이므로, $P(C_1)= \frac{{13\choose 2}{39\choose 3}}{{52\choose 5}} = 0.2743,  P(C_2 \mid C_1)= 11/47 = 0.234  \Rightarrow P(C_1 \cap C_2) = 0.064$  
+
 
 
 
