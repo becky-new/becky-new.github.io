@@ -134,7 +134,7 @@ $P_Y(y)= P(Y=y) = P\[g(X)=y\] = P(X= g^{-1}(y)) = P_X(g^{-1}(y))$
 #### Example 3  
 
 $Y= X-1$이고 $P_X(x) = (\frac{1}{2})^x, x=1,2,\cdots$일 때 PMF를 구해보자.  
-$g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1}{2})^{y+1}, y= **0,1,2,\cdots**$  
+$g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1}{2})^{y+1}, y= 0,1,2,\cdots$  
 
 
 
