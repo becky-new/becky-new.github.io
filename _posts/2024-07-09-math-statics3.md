@@ -48,11 +48,36 @@ use_math: true
    i.e. $P_X(B)= P\[c \in \mathscr{C} : X(c) \in B\], B \in \mathscr{F}$  
    
    
+---  
+
 ### Probability Functions  
 * Probability Mass Function (PMF): $P_X(d_i) = P(X= d_i), i=1, \cdots, m$  
 
 * Cumulative Distribution Function (CDF): $F_X(x)= P_X((-\infty, x\])= P(X \leq x)$  
 
+
+#### Example  
+
+Fair dice를 던지는 경우를 X라고 해보자. X의 CDF는 어떻게 될까?   
+* Fair dice: $P_X(1)= P_X(2)= \cdots = P_X(6)= \frac{1}{6}$  
+
+$\textit{Sol}$  
+![dlalwl](https://i.imgur.com/NxGugvt.jpeg)  
+
+![dlalwl](https://i.imgur.com/7tdiBI6.jpeg)  
+
+이러한 CDF를 step function이라 부르고, 이는 non-decreasing 하는 특징이 있다. (일정한 구간이 있으므로 increasing은 아니다!)  
+
+
+위 경우의 PMF는 아래 그래프와 같다.  
+
+![이미지](https://i.imgur.com/NME75wE.jpeg)  
+
+
+#### Example 2  
+
+X는 (0,1)의 continuous variable이라고 하고, $P_X\[(a,b)\] = b-a for, 0 < a < b < 1$이라 할 수 있다.  
+r.v. $X$의 CDF를 구하면 아래와 같다.
 
 
 
