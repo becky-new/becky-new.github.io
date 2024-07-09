@@ -152,7 +152,7 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
 
 * Continuous random variable: CDF $F_X(x)$ is continuous, $\forall x \in R$  
 
-* CDF $F_X(x)= \int_{-\infty}^{x} f_X(t), dt$ 이고, $f_X(t)$는 probability density function (PDF)로 불린다.  
+* CDF $F_X(x)= \int_{-\infty}^{x} f_X(t) \, dt$ 이고, $f_X(t)$는 probability density function (PDF)로 불린다.  
 
 
 
