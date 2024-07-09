@@ -106,7 +106,7 @@ use_math: true
 
 ### Conditional Probability  
 
-* 조건부 확률 (Conditional Probability) : $C_1, C_2 \subset \mathscr{C}$일 때, $P= (C_2 | C_1) = \frac{P(C_2 \cap C_1)}{P(C_1)}, if P(C_1) > 0$  
+* 조건부 확률 (Conditional Probability): $C_1, C_2 \subset \mathscr{C}$일 때, $P(C_2 | C_1) = \frac{P(C_2 \cap C_1)}{P(C_1)}, if P(C_1) > 0$  
 
 * 조건부 확률의 3가지 성질  
   1. $P= (C_2 | C_1) \geq 0$ (non-negativity)  
