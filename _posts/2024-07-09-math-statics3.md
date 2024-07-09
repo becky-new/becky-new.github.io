@@ -83,7 +83,7 @@ $F_X(x) = \begin{cases}
 0 & \text{if } x < 0 \\ ,  
 x & \text{if } 0 \leq x < 1 \\  ,  
 1 & \text{if } x \geq 1  
-\end{cases}} $  
+\end{cases} $  
 
 * 이 CDF는 continuous uniform distribution이라고 한다.  
 
