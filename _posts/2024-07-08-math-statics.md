@@ -106,12 +106,12 @@ use_math: true
 
 ### Conditional Probability  
 
-* 조건부 확률 (Conditional Probability): $(C_1, C_2 \subset \mathscr{C}$일 때, $P(C_2 | C_1) = \frac{P(C_2 \cap C_1)}{P(C_1)}$, if $P(C_1) > 0$
+* 조건부 확률 (Conditional Probability): $(C_1, C_2 \subset \mathscr{C}$일 때, $P(\left C_2 \middle| C_1\right) = \frac{P(C_2 \cap C_1)}{P(C_1)}$, if $P(C_1) > 0$
 
 * 조건부 확률의 3가지 성질
-  1. $(P(C_2 | C_1) \geq 0$ (non-negativity)
-  2. $(P\left(\bigcup_{i=2}^{\infty} C_i \middle| C_1\right) = \sum_{i=2}^{\infty} P(C_i | C_1) $ if $C_2, C_3, \cdots$ are mutually disjoint (countable additivity)
-  3. $(P(C_1 | C_1) = 1$ (normality)
+  1. $P(\left C_2 \middle| C_1\right) \geq 0$ (non-negativity)
+  2. $P\left(\bigcup_{i=2}^{\infty} C_i \middle| C_1\right) = \sum_{i=2}^{\infty} P(C_i | C_1) $ if $C_2, C_3, \cdots$ are mutually disjoint (countable additivity)
+  3. $P(\left C_1 \middle| C_1\right) = 1$ (normality)
 
 
 
