@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[수리통계학 I] 3강 요약 정리"
+title:  "[수리통계학 I] 3, 4강 요약 정리"
 author: becky
 categories: [ datascience ]
 tags: [수리통계학, data science]
@@ -9,7 +9,7 @@ use_math: true
 ---
 
 ## [수리통계학 I] Random Variables  
-### 3강 요약 정리  
+### 3, 4강 요약 정리  
 
 **부산대학교 김충락 교수님의 2020년 1학기 KOCW 강의를 들으며 요약하는 글입니다.**  
 
@@ -21,7 +21,7 @@ use_math: true
 [2. Probability Functions](#probability-functions)  
 [3. Theorem](#Theorem)  
 [4. Discrete Random Variables](#discrete-random-variables)  
-[5. Conditional Probability](#conditional-probability)  
+[5. Continuous Random Variables](#continuous-random-variables)  
 [6. Bayes Theorem](#bayes-theorem)  
 [7. Independent](#independent)  
 
@@ -138,6 +138,16 @@ $Y= X-1$이고 $P_X(x) = (\frac{1}{2})^x, x=1,2,\cdots$일 때 PMF를 구해보�
 $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1}{2})^{y+1}, y= 0,1,2,\cdots$  
 
 * y의 범위를 잊지 말자!  
+* 이 분포를 geometric distribution이라 한다.  
+
+
+---  
+
+### Continuous Random Variables  
+
+
+
+
 
 
 
