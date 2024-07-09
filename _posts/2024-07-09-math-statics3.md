@@ -34,7 +34,7 @@ use_math: true
 
 
 * Random variable(r.v.): 각 요소 $c \in \mathscr{C}$이고 일대일 대응되는 (one and only one) $X(c)= x$인 function X  
-* 도메인 $\mathscr{D} = \{x: x= X(c), c \in \mathscr{C}\}$  
+* 도메인 $\mathscr{D} = \lbrace x: x= X(c), c \in \mathscr{C} \rbrace$  
 
 * $\mathscr{D}$가 countable set일 때: discrete random variables  
 * $\mathscr{D}$가 interval of real numbers일 때: continuous random variables  
