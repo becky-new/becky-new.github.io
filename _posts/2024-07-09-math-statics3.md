@@ -44,8 +44,10 @@ use_math: true
 
 * Probability function $P$가 $\mathscr{B}$에서 정의되었다고 하면, $\mathscr{F}$에서 정의된 probability function $P_x$를 정의할 수 있다. $P_x$는 $r.v. X$에 의해 induced 된 probability function으로 불린다.  
 
-* 즉, $P(C), C \in \mathscr{B}, P_x(B), B \in \mathscr{F}$  
-   i.e. $P_x(B)= P\[c \in \mathscr{C} : X(c) \in B\], B \in \mathscr{F}$  
+* 즉, $P(C), C \in \mathscr{B}, P_X(B), B \in \mathscr{F}$  
+   i.e. $P_X(B)= P\[c \in \mathscr{C} : X(c) \in B\], B \in \mathscr{F}$  
+   
+* Probability Mass Function (PMF): $P_X(d_i) = P(X= d_i), i=1, \cdots, m$  
 
 
 
