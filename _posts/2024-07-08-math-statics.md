@@ -109,11 +109,21 @@ use_math: true
 * 조건부 확률 (Conditional Probability): $C_1, C_2 \subset \mathscr{C}$일 때, $P(C_2 \mid C_1) = \frac{P(C_2 \cap C_1)}{P(C_1)}$, if $P(C_1) > 0$
 
 
-
 * 조건부 확률의 3가지 성질
   1. $P(C_2 \mid C_1) \geq 0$ (non-negativity)
   2. $P\left(\bigcup_{i=2}^{\infty} C_i \mid C_1\right) = \sum_{i=2}^{\infty} P(C_i \mid C_1)$ if $C_2, C_3, \cdots$ are mutually disjoint (countable additivity)
   3. $P(C_1 \mid C_1) = 1$ (normality)
+
+
+#### Example  
+
+4가지 모양이 13개씩 있는 덱에서 비복원 추출로 카드를 뽑는다고 생각해보자. 6번째 추출에서 3번째 스페이드를 뽑을 확률을 구하라.  
+
+$\textit{Sol^n}$  
+$C_1$: 5번째까지의 추출에서 스페이드 2개가 나오는 경우.  
+$C_2$: 6번째 추출에서 스페이드가 나오는 경우.  
+우리는 $P(C_1 \cap C_2)$를 구해야 하고 $P(C_1 \cap C_2) = P(C_2 \mid C_1)P(C_1)$이므로, $P(C_1)= \frac{{13\choose 2}{39\choose 3}}{{52\choose 5}} = 0.2743,  P(C_2 \mid C_1)= 11/47 = 0.234  \Rightarrow P(C_1 \cap C_2) = 0.064$  
+
 
 
 
