@@ -147,9 +147,10 @@ $P(C_1 \cup C_2 \cup C_3 \cup \cdots) = P(C_1)P(C_2 \mid C_1)P(C_3 \mid {C_1 \ca
 
 * $C_1$과 $C_2$가 independent하다: $P(C_1 \mid C_2) = P(C_1) \Rightarrow P(C_1 \cap C_2) = P(C_1)P(C_2)$  
 
-* In general: $P(C_{i_1} \cap C_{i_2} \cap \cdots \cap C_{i_k}) = P(C_{i_1}) \cdots P(C_{i_k}) = \prod_{k}{j=1} P(C_ij)$이라면 $C_1, C_2, \cdots, C_n$은 independent  
+* In general: $P(C_{i_1} \cap C_{i_2} \cap \cdots \cap C_{i_k}) = P(C_{i_1}) \cdots P(C_{i_k}) = \prod_{j=1}^{k} P(C_{ij})$이라면 $C_1, C_2, \cdots, C_n$은 independent  
 
 
+* Pairwise independent: $P(C_i \cap C_j) = P(C_i)P(C_j), \forall i \ne j$  
 
 
 
