@@ -116,9 +116,9 @@ x & \text{if } 0 \leq x < 1 \\  ,
 #### Example 1  
 
 Fair coin을 던진다고 하고, X를 앞면이 나오는 경우의 수라고 하자. 이때 X의 PMF는,  
-$P(X=x) = (\frac{1}{2})^{x-1} \frac{1}{2} = (\frac{1}{2})^x$ , $x= 1, 2, 3, \cdots $  
+$P(X=x) = (\frac{1}{2})^{x-1} (\frac{1}{2}) = (\frac{1}{2})^x$ , $x= 1, 2, 3, \cdots $  
 
-+ 이는 $2^(-x) I(x=1, 2, 3, \cdots)$ 으로 표현할 수 있다. $I(x)$는 indicator function이다.  
++ 이는 $2^{-x} I(x=1, 2, 3, \cdots)$ 으로 표현할 수 있다. $I(x)$는 indicator function이다.  
 
 
 #### Example 2  
@@ -126,7 +126,8 @@ $P(X=x) = (\frac{1}{2})^{x-1} \frac{1}{2} = (\frac{1}{2})^x$ , $x= 1, 2, 3, \cdo
 20개의 흰 공, 80개의 검은 공으로 총 100개의 공이 있다고 하자. 우리가 5개 공을 뽑을 때 흰 공의 개수를 X라고 하면, X의 PMF는  
 $P_X(x) = \frac{\binom{20}{x} \binom{80}{5-x}}{\binom{100}{5}} , x= 0, 1, 2, 3, 4, 5$  
 
-
+* $X$의 PMF를 알고 있고, $g$가 일대일 대응일 때, $Y= g(X)$의 PMF를 구해보자.  
+$P_Y(y)= P(Y=y) = P\[g(X)=y\] = P(X= g^(-1)(y)) = P_X(g^(-1)(y))$  
 
 
 
