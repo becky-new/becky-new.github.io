@@ -78,11 +78,15 @@ use_math: true
 
 * Theorem  
   1. $P(C) = 1- P(C^C), \forall C \in \mathscr{B}$  
-    * <style color=#888888> $C \cup C^C = \mathscr{C} and C \cap C^C = \emptyset$ </style>  
+    * <span style="color:#888888"> $C \cup C^C = \mathscr{C} and C \cap C^C = \emptyset$ </span>  
   2. $P(\emptyset) = 0$  
+    * <span style="color:#888888"> $C= \emptyset \Rightarrow C^C = \mathscr{C}$ </span>  
   3. $C_1 \subset C_2 \Rightarrow P(C_1) \leq P(C_2)$  
+    * <span style="color:#888888"> $C_2 = C_1 \cup (C_1^C \cap C_2)$ </span>  
   4. $0 \leq P(C) \leq 1, \forall C \in \mathscr{B}$  
+    * <span style="color:#888888"> $\emptyset \subset C \subset \mathscr{C}$ </span>  
   5. $P(C_1 \cup C_2) = P(C_1) + P(C_2) - P(C_1 \cap C_2)$  
+    * <span style="color:#888888"> $C_1 \cup C_2 = C_1 \cup (C_1^C \cap C_2), C_2= (C_1 \cap C_2) \cup (C_1^C \cap C_2)$ </span>  
   
 
 
