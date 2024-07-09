@@ -12,7 +12,12 @@ use_math: true
 
 **부산대학교 김충락 교수님의 2020년 1학기 KOCW 강의를 들으며 요약하는 글입니다.**  
 
-[강의 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=ab9a991198792450)  
+[1강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=ab9a991198792450)  
+
+
+**목차**  
+[1. 기본 개념](#기본-개념)  
+[2. Set theory](#set-theory)  
 
 
 ---  
@@ -151,8 +156,10 @@ $P(C_1 \cup C_2 \cup C_3 \cup \cdots) = P(C_1)P(C_2 \mid C_1)P(C_3 \mid {C_1 \ca
 
 
 * Pairwise independent: $P(C_i \cap C_j) = P(C_i)P(C_j), \forall i \ne j$  
+  
+  
 
-
+---  
 
 [Scroll to top ↑](#){: .btn .btn--primary }   
 
