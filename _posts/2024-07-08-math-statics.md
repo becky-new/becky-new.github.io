@@ -78,19 +78,19 @@ use_math: true
 
 * Theorem  
   1. $P(C) = 1- P(C^C), \forall C \in \mathscr{B}$  
-    * <span style="color:#555555"> $C \cup C^C = \mathscr{C}  and  C \cap C^C = \emptyset$ </span>  
+    * <span style="color:#A2A2A2"> $C \cup C^C = \mathscr{C}  and  C \cap C^C = \emptyset$ </span>  
     
   2. $P(\emptyset) = 0$  
-    * <span style="color:#555555"> $C= \emptyset \Rightarrow C^C = \mathscr{C}$ </span>  
+    * <span style="color:#A2A2A2"> $C= \emptyset \Rightarrow C^C = \mathscr{C}$ </span>  
     
   3. $C_1 \subset C_2 \Rightarrow P(C_1) \leq P(C_2)$  
-    * <span style="color:#555555"> $C_2 = C_1 \cup (C_1^C \cap C_2)$ </span>  
+    * <span style="color:#A2A2A2"> $C_2 = C_1 \cup (C_1^C \cap C_2)$ </span>  
     
   4. $0 \leq P(C) \leq 1, \forall C \in \mathscr{B}$  
-    * <span style="color:#555555"> $\emptyset \subset C \subset \mathscr{C}$ </span>  
+    * <span style="color:#A2A2A2"> $\emptyset \subset C \subset \mathscr{C}$ </span>  
     
   5. $P(C_1 \cup C_2) = P(C_1) + P(C_2) - P(C_1 \cap C_2)$  
-    * <span style="color:#555555"> $C_1 \cup C_2 = C_1 \cup (C_1^C \cap C_2),  C_2= (C_1 \cap C_2) \cup (C_1^C \cap C_2)$ </span>  
+    * <span style="color:#A2A2A2"> $C_1 \cup C_2 = C_1 \cup (C_1^C \cap C_2),  C_2= (C_1 \cap C_2) \cup (C_1^C \cap C_2)$ </span>  
   
   6. $\{C_n\}$이 increasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcup_{n=1}^{\infty} C_n)$  
   7. $\{C_n\}$이 decreasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcap_{n=1}^{\infty} C_n)$  
