@@ -17,10 +17,10 @@ use_math: true
 
 
 **목차**  
-[1. 기본 개념](#기본-개념)  
-[2. Set theory](#set-theory)  
-[3. Integral](#integral)  
-[4. Probability Set Function](#probability-set-function)  
+[1. Random Variables](#ramdon-variables)  
+[2. Probability Functions](#probability-functions)  
+[3. Theorem](#Theorem)  
+[4. Discrete Random Variables](#discrete-random-variables)  
 [5. Conditional Probability](#conditional-probability)  
 [6. Bayes Theorem](#bayes-theorem)  
 [7. Independent](#independent)  
@@ -99,6 +99,20 @@ x & \text{if } 0 \leq x < 1 \\  ,
 * $P(a < X \leq b)= F_X(b) - F_X(a)$, $\forall a < b$  
 
 * $P(X= x) = F_X(x) - F_X(x-)$, $F_X(x-) = \lim_{z\to x-} F_X(z)$  
+
+
+---   
+
+### Discrete Random Variables  
+
+* Discrete Random Variable: its space is either **finite** or **countable**  
+
+* Probability Mass Function (PMF) of a discrete r.v. $X$ with space $\mathscr{D}$: $P_X(x)= P(X=x), x \in \mathscr{D}$  
+
+* Support of X: $S_X= \{x: P_X(x) > 0 \}$  
+
+
+
 
 
 
