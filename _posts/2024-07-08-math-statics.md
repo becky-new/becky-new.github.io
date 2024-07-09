@@ -96,7 +96,7 @@ use_math: true
   7. $\{C_n\}$이 decreasing sequence라고 할 때, $\lim_{n\to\infty} P(C_n) = P(\lim_{n\to\infty} C_n) = P(\bigcap_{n=1}^{\infty} C_n)$  
 
 
-
+  8. $\{C_n\}$을 arbitrary sequence라고 하면, $P(\bigcup_{n=1}^{\infty} C_n) \leq \sum_{n=1}^{\infty} P(C_n)$  
 
 
 
