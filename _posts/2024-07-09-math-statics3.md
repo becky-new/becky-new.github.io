@@ -53,12 +53,12 @@ use_math: true
 
 ### Probability Functions  
 * Probability Mass Function (PMF): $P_X(d_i) = P(X= d_i), i=1, \cdots, m$  
-* PMF: 이산 확률 변수에서 특정 값에 대한 확률을 나타내는 함수  
+* PMF: <u>이산 확률 변수 </u>에서 특정 값에 대한 확률을 나타내는 함수  
 
 * Cumulative Distribution Function (CDF): $F_X(x)= P_X((-\infty, x\])= P(X \leq x)$  
 
 * Probability Density Function (PDF): $f_X(x) = \frac{d}{dx} F_X(x)$  
-* PDF: 연속 확률 변수에서 특정 구간에 속할 확률을 계산하기 위한 함수  
+* PDF: <u>연속 확률 변수</u>에서 특정 구간에 속할 확률을 계산하기 위한 함수  
 
 
 #### Example 1  
@@ -150,9 +150,14 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
 
 ### Continuous Random Variables  
 
-* Continuous random variable: CDF $F_X(x)$ is continuous, $\forall x \in R$  
+* Continuous random variable: <u> CDF $F_X(x)$ is continuous </u>, $\forall x \in R$  
 
 * CDF $F_X(x)= \int_{-\infty}^{x} f_X(t) \, dt$ 이고, $f_X(t)$는 probability density function (PDF)로 불린다.  
+
+* $f_X(x) = \frac{d}{dx} F_X(x)$  
+
+* Continuous variable에서, $P(X=x) = F_X(x) - F_X(x-) = 0$  
+* Continuous variable에서, $P(a < X \leq b) = F_X(b) - F_X(a) = \int_{a}^{b} f_X(t) \, dt$  
 
 
 
