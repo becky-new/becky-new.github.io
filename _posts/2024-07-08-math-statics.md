@@ -18,7 +18,11 @@ use_math: true
 **목차**  
 [1. 기본 개념](#기본-개념)  
 [2. Set theory](#set-theory)  
-
+[3. Integral](#integral)  
+[4. Probability Set Function](#probability-set-function)  
+[5. Conditional Probability](#conditional-probability)  
+[6. Bayes Theorem](#bayes-theorem)  
+[7. Independent](#independent)  
 
 ---  
 
