@@ -113,6 +113,11 @@ x & \text{if } 0 \leq x < 1 \\  ,
 * Support of X: $S_X= \lbrace x: P_X(x) > 0 \rbrace$  
 
 
+* $X$의 PMF를 알고 있고, $g$가 일대일 대응일 때, $Y= g(X)$의 PMF를 구해보자.  
+$P_Y(y)= P(Y=y) = P\[g(X)=y\] = P(X= g^{-1}(y)) = P_X(g^{-1}(y))$  
+
+
+
 #### Example 1  
 
 Fair coin을 던진다고 하고, X를 앞면이 나오는 경우의 수라고 하자. 이때 X의 PMF는,  
@@ -127,16 +132,12 @@ $P(X=x) = (\frac{1}{2})^{x-1} (\frac{1}{2}) = (\frac{1}{2})^x$ , $x= 1, 2, 3, \c
 $P_X(x) = \frac{\binom{20}{x} \binom{80}{5-x}}{\binom{100}{5}} , x= 0, 1, 2, 3, 4, 5$  
 
 
-
-* $X$의 PMF를 알고 있고, $g$가 일대일 대응일 때, $Y= g(X)$의 PMF를 구해보자.  
-$P_Y(y)= P(Y=y) = P\[g(X)=y\] = P(X= g^{-1}(y)) = P_X(g^{-1}(y))$  
-
 #### Example 3  
 
 $Y= X-1$이고 $P_X(x) = (\frac{1}{2})^x, x=1,2,\cdots$일 때 PMF를 구해보자.  
 $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1}{2})^{y+1}, y= 0,1,2,\cdots$  
 
-
+* y의 범위를 잊지 말자!  
 
 
 
