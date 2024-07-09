@@ -53,7 +53,7 @@ use_math: true
 
 ### Probability Functions  
 * Probability Mass Function (PMF): $P_X(d_i) = P(X= d_i), i=1, \cdots, m$  
-* PMF: <u>이산 확률 변수 </u>에서 특정 값에 대한 확률을 나타내는 함수  
+* PMF: <u>이산 확률 변수</u>에서 특정 값에 대한 확률을 나타내는 함수  
 
 * Cumulative Distribution Function (CDF): $F_X(x)= P_X((-\infty, x\])= P(X \leq x)$  
 
