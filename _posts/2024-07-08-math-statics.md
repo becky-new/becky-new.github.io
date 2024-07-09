@@ -106,7 +106,7 @@ use_math: true
 
 ### Conditional Probability  
 
-
+* 조건부 확률 (Conditional Probability): $C_1, C_2 \subset \mathscr{C}$일 때, $P(\left C_2 \middle| C_1\right) = \frac{P(C_2 \cap C_1)}{P(C_1)}$, if $P(C_1) > 0$
 
 
 
