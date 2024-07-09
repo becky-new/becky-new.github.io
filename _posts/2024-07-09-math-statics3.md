@@ -162,7 +162,7 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
 
 
 * $F_X(x)$의 특성에 의해 유도되는 성질  
-  1. $f_X(x) \geq 0$ ($F_X(x) is non-decreasing$)  
+  1. $f_X(x) \geq 0$ ($F_X(x)$ is non-decreasing)  
   2. $\int_{-\infty}^{\infty} f_X(t) \, dt = 1$ ($F_X(\infty) = 1$)  
 
 
