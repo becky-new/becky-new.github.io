@@ -85,6 +85,19 @@ x & \text{if } 0 \leq x < 1 \\
 1 & \text{if } x \geq 1  
 \end{cases} $  
 
+* 이 CDF는 continuous uniform distribution이라고 한다.  
+
+
+### CDF Properties  
+
+1. $F(a) \leq F(b), \forall a < b$ (non-decreasing)  
+2. $lim_{x to -\infty} F(x) = 0  
+3. $lim_{x to \infty} F(x) = 1  
+4. $lim_{x to x_0+} F(x) = F(x_0)$ (right continuous)  
+
+
+
+
 
 
 
