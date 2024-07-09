@@ -158,7 +158,7 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
 
 * Continuous variable에서, $P(X=x) = F_X(x) - F_X(x-) = 0$  
 * Continuous variable에서, $P(a < X \leq b) = F_X(b) - F_X(a) = \int_{a}^{b} f_X(t) \, dt$  
-
+* 또한, $P(a < X \leq b) = P(a \leq X \leq b) = P(a \leq X < b) = P(a < X < b)$  
 
 
 
