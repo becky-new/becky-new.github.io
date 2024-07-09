@@ -14,6 +14,7 @@ use_math: true
 **부산대학교 김충락 교수님의 2020년 1학기 KOCW 강의를 들으며 요약하는 글입니다.**  
 
 [3강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=0eb108cf6ad31136)  
+[4강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=8aec1210d15581cd)  
 
 
 **목차**  
@@ -55,6 +56,9 @@ use_math: true
 * PMF: 이산 확률 변수에서 특정 값에 대한 확률을 나타내는 함수  
 
 * Cumulative Distribution Function (CDF): $F_X(x)= P_X((-\infty, x\])= P(X \leq x)$  
+
+* Probability Density Function (PDF): $f_X(x) = \frac{d}{dx} F_X(x)$  
+* PDF: 연속 확률 변수에서 특정 구간에 속할 확률을 계산하기 위한 함수  
 
 
 #### Example 1  
@@ -135,6 +139,7 @@ $P_X(x) = \frac{\binom{20}{x} \binom{80}{5-x}}{\binom{100}{5}} , x= 0, 1, 2, 3, 
 #### Example 3  
 
 $Y= X-1$이고 $P_X(x) = (\frac{1}{2})^x, x=1,2,\cdots$일 때 PMF를 구해보자.  
+
 $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1}{2})^{y+1}, y= 0,1,2,\cdots$  
 
 * y의 범위를 잊지 말자!  
@@ -144,6 +149,11 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
 ---  
 
 ### Continuous Random Variables  
+
+* Continuous random variable: CDF $F_X(x)$ is continuous, $\forall x \in R$  
+
+* CDF $F_X(x)= \int_{-\infty}^{x} f_X(t), dt$ 이고, $f_X(t)$는 probability density function (PDF)로 불린다.  
+
 
 
 
