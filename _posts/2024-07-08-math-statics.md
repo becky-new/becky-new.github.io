@@ -135,7 +135,9 @@ $P(C_1 \cup C_2 \cup C_3 \cup \cdots) = P(C_1)P(C_2 \mid C_1)P(C_3 \mid {C_1 \ca
 
 ### Bayes Theorem  
 
-* $P(C_j \mid C) = \frac{P(C_j) P(C \mid C_j)}{\sum_{i=1}^{k} P(C_i) P(C \mid C_i)}, \quad j= 1, \cdots, k$  
+* 베이즈 정리: $P(C_j \mid C)$를 구하기 힘들지만, $P(C \mid C_j)$와 $P(C)$를 구하기 쉬울 때 (알고 있을 때) 유용하게 사용하며, 여러 분야에 응용된다.  
+
+* $P(C_j \mid C) = \frac{P(C_j) P(C \mid C_j)}{\sum_{i=1}^{k} P(C_i) P(C \mid C_i)} = \frac{P(C_j) P(C \mid C_j)}{P(C)}, \quad j= 1, \cdots, k$  
 
 * $P(C_j)$ : Prior probability  
 * $P(C_j \mid C)$ : Posterior probability  
