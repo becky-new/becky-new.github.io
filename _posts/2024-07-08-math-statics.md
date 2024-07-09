@@ -124,7 +124,13 @@ $C_1$: 5번째까지의 추출에서 스페이드 2개가 나오는 경우.
 $C_2$: 6번째 추출에서 스페이드가 나오는 경우.  
 
 우리는 $P(C_1 \cap C_2)$를 구해야 하고 $P(C_1 \cap C_2) = P(C_2 \mid C_1)P(C_1)$이므로,  
-$P(C_1)= \frac{\binom{13}{2} \binom{39}{3}}{\binom{52}{5}} = 0.2743$,  
+$P(C_1)= \frac{\binom{13}{2} \binom{39}{3}}{\binom{52}{5}} = 0.2743$,  $P(C_2 \mid C_1)= \frac{11}{47} = 0.234 \Rightarrow P(C_1 \cap C_2) = 0.064$  
+
+
+#### In general  
+
+$P(C_1 \cup C_2 \cup C_3 \cup \cdots) = P(C_1)P(C_2 \mid C_1)P(C_3 \mid {C_1 \cap C_2})P(C_4 \mid {C_1 \cap C_2 \cap C_3}) \cdots$  
+
 
 
 
