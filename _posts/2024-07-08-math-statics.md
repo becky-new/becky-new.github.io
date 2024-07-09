@@ -143,6 +143,10 @@ $P(C_1 \cup C_2 \cup C_3 \cup \cdots) = P(C_1)P(C_2 \mid C_1)P(C_3 \mid {C_1 \ca
 * $P(C_j \mid C)$ : Posterior probability  
 
 
+### Independent  
+
+* $C_1$과 $C_2$가 independent하다: $P(C_1 \mid C_2) = P(C_1) \Rightarrow P(C_1 \cap C_2) = P(C_1)P(C_2)$  
+
 
 
 
