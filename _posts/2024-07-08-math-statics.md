@@ -101,7 +101,7 @@ use_math: true
 
 * Inclusion-exclusion formula  
 
-  + $P(C_1 \cup C_2 \cup \cdots \cup C_k) = p_1 - p_2 + p_3 - \cdots + (-1)^(k-1)p_k$  
+  + $P(C_1 \cup C_2 \cup \cdots \cup C_k) = p_1 - p_2 + p_3 - \cdots + (-1)^{k-1}p_k$  
 
 
 ### Conditional Probability  
