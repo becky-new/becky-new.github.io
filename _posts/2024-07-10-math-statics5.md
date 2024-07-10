@@ -49,8 +49,10 @@ use_math: true
 
 1. $/mu = E(X)$ : **population** mean of r.v. $X$  
 2. $/sigma^2 = E(X-/mu)^2$ : variance of r.v. $X$  
+  * $/sigma^2 = E(X^2) - (\lbrace E(X) \rbrace)^2$  
 3. $/sigma = \sqrt{/sigma^2}$ : standard variation  
-4. 
+4. Moment Generating Function (mgf, 적률 생성 함수): $M_X(t) = E(e^{tX}) = \int_{\infty}^{\infty} e^{tx}f(x) \, dx$  
+  * <span style='color:#A2A2A2'> $E(e^{tX}) &lt; \infty$,  $\vert t \vert &lt; h$ for some $h&gt;0$ </span>  
 
 
 
