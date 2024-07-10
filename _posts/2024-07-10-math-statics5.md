@@ -57,7 +57,17 @@ use_math: true
 
 * $E(x^k)$ : k-th moment (k차 적률)  
 * $E\[(x-k)^k]$ : k-th central moment  
-* Uniqueness of mgf: $F_X(z) = F_Y(z)$,  $\forall z \in R  iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$  
+* Uniqueness of mgf: $F_X(z) = F_Y(z)$,  $\forall z \in R$,  $iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$  
+
+
+---  
+
+### Taylor Expansion  
+
+i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$  
+  + $f(x)= f(x_0) + \frac{f'(x_0)}{1!}(x-x_0)^1 + \frac{f''(x_0)}{2!}(x-x_0)^2 + \cdots$  
+  $= \sum_{j=0}^{\infty} \frac{f^(j)(x_0)}{j!}(x-x_0)^j$  
+ii. 
 
 
 
