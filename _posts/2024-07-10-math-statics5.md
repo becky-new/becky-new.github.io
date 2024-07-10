@@ -65,6 +65,8 @@ $iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$
 
 ### Taylor Expansion  
 
+다항식의 합의 모양으로 나타낼 수 있다!  
+
 i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$  
   + $f(x)= f(x_0) + \frac{f'(x_0)}{1!}(x-x_0)^1 + \frac{f''(x_0)}{2!}(x-x_0)^2 + \cdots$  
   $= \sum_{j=0}^{\infty} \frac{f^{(j)}(x_0)}{j!}(x-x_0)^j$  
@@ -72,7 +74,8 @@ i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$
   + As a special case: $f(x)= \sum_{j=0}^{k} \frac{f^{(j)}(x_0)}{j!}(x-x_0)^j + \frac{f^{(k+1)}(\xi)}{(k+1)!}(x-x_0)^{k+1}$ = leading term + remainder term  
   + $\xi$: $x$와 $x_0$ 사이의 값  
   
-ii. d차원: $f: R^d \rightarrow R^1$,  infinitely differentiable at $mathbf{X}= mathbf{X_0}$
+ii. d차원: $f: R^d \rightarrow R^1$,  infinitely differentiable at $\mathbf{x}= \mathbf{x_0}$  
+  + 
 
 
 
