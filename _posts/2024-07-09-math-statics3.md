@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "[수리통계학 I] 3, 4강 요약 정리"
+title: '[수리통계학 I] 3, 4강 요약 정리'
 author: becky
-categories: [ datascience ]
-tags: [수리통계학, data science]
-image: https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+categories:
+  - datascience
+tags:
+  - 수리통계학
+  - data science
+image: >-
+  https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 use_math: true
 ---
 
@@ -18,7 +22,7 @@ use_math: true
 
 
 **목차**  
-[1. Random Variables](#ramdon-variables)  
+[1. Random Variables](#random-variables)  
 [2. Probability Functions](#probability-functions)  
 [3. Theorem](#Theorem)  
 [4. Discrete Random Variables](#discrete-random-variables)  
@@ -258,5 +262,4 @@ $P(X=0)= F(0) - F(0-)= \frac{1}{2}$
 
 
 
-[Scroll to top ↑](#){: .btn .btn--primary }  
-
+[Scroll to top ↑](#){: .btn .btn--primary }
