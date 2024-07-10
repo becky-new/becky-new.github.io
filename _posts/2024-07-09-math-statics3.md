@@ -226,7 +226,7 @@ $S_Y= \lbrace y= g(x) : x \in S_X \rbrace$ 이다.
 
 <span style='color: #A2A2A2'> [pf] $g(X)$를 increasing 한다고 가정해보자.  
   $F_Y(y)= P(g(X) \leq y)$  
-  $=P(X \leq g^{-1}(y)) = F_X(g^[-1}(y))$  
+  $=P(X \leq g^{-1}(y)) = F_X(g^{-1}(y))$  
   $\therefore f_Y(y) = \frac{d}{dy} F_Y(y)$  
   $= f_X(g^{-1}(y))\frac{dx}{dy}$  
   
@@ -241,6 +241,8 @@ $S_Y= \lbrace y= g(x) : x \in S_X \rbrace$ 이다.
   
   $\therefore f_Y(y)= \frac{1}{2}{-\frac{y}{2}}$,  $y>0$  
   
+  
+  #### Example 2  
   
   
 
