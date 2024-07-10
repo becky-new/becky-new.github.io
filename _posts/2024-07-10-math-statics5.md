@@ -65,7 +65,7 @@ $iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$
 
 ### Taylor Expansion  
 
-다항식의 합의 모양으로 나타낼 수 있다!  
+"**다항식의 합의 모양**으로 나타낼 수 있다!"  
 
 i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$  
   + $f(x)= f(x_0) + \frac{f'(x_0)}{1!}(x-x_0)^1 + \frac{f''(x_0)}{2!}(x-x_0)^2 + \cdots$  
@@ -74,9 +74,24 @@ i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$
   + As a special case: $f(x)= \sum_{j=0}^{k} \frac{f^{(j)}(x_0)}{j!}(x-x_0)^j + \frac{f^{(k+1)}(\xi)}{(k+1)!}(x-x_0)^{k+1}$ = leading term + remainder term  
   + $\xi$: $x$와 $x_0$ 사이의 값  
   
-ii. d차원: $f: R^d \rightarrow R^1$,  infinitely differentiable at $\mathbf{x}= \mathbf{x_0}$  
-  + 
+ii. d차원 $\rightarrow$ 1차원: $f: R^d \rightarrow R^1$,  infinitely differentiable at $\mathbf{x}= \mathbf{x_0}$  
+  + $f(\mathbf{x})= f(\mathbf{x_0}) + \nabla f(\mathbf{x_0})^T (\mathbf{x}-\mathbf{x_0}) + \frac{1}{2!} (\mathbf{x}-\mathbf{x_0})^T H(\mathbf{x}-\mathbf{x_0}) + R_n$  
+  where $\nabla f(x) = \frac{\partial f(x)}{\partial x}$,  $H= \frac{\partial^2 f(x)}{\partial x \partial x^2}$  
+  
+iii. d차원 $\rightarrow$ p차원: $f: R^d \rightarrow R^1$,  infinitely differentiable at $\mathbf{x}= \mathbf{x_0}$  
+  + ii와 비슷하게 진행  
+  
+  
+---  
 
+### Remark   
+
+1. mgf may not exist : example pdf $f(x) = \frac{1}{x^2} I(x>1)$  
+2. Sometimes, pdf can be found from the mgf  
+  * $M_X(t)= \frac{1}{10} e^t + \frac{2}{10} e^{2t} + \frac{3}{10} e^{3t} + \frac{4}{10} e^{4t}$  
+  * $M_X(t) = \sum e^{tx}p(x) = p(1)e^t + p(2)e^{2t} + p(3)e^{3t} + p(4)e^{4t}$  
+  * by the uniqueness of polynomial coeff $\rightarrow$ p(x)= \frac{x}{10}$,  $x= 1,2,3,4$  
+    + <span style='color:#A2A2A2'> uniqueness of polynomial coefficient: $a_0 + a_1x + a_2x^2 + \cdots = b_0 + b_1x + b_2x^2 + \cdots$,  $\forall x \Rightarrow a_i = b_i$,  $i= 0,1,2,\cdots,n$  
 
 
 
