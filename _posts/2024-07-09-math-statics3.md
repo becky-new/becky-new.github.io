@@ -23,8 +23,7 @@ use_math: true
 [3. Theorem](#Theorem)  
 [4. Discrete Random Variables](#discrete-random-variables)  
 [5. Continuous Random Variables](#continuous-random-variables)  
-[6. Bayes Theorem](#bayes-theorem)  
-[7. Independent](#independent)  
+[6. Theorem_transformation technique](#theorem-transformation-technique)  
 
 ---  
 
@@ -233,24 +232,28 @@ $S_Y= \lbrace y= g(x) : x \in S_X \rbrace$ 이다.
   $g(X)$가 decreasing해도 증명 방식은 똑같다.</span>  
   
   
-  #### Example 1  
+#### Example 1  
   
-  $f_X(x)= I(0<x<1)$일 때, $Y= -2 \log{x}$의 PDF를 구해보자.  
+$f_X(x)= I(0<x<1)$일 때, $Y= -2 \log{x}$의 PDF를 구해보자.  
   
-  $g^{-1}(y)= e^{-\frac{y}{2}}$,  $\frac{dx}{dy}= -\frac{1}{2} e^{-\frac{y}{2}}$  
+$g^{-1}(y)= e^{-\frac{y}{2}}$,  $\frac{dx}{dy}= -\frac{1}{2} e^{-\frac{y}{2}}$  
   
-  $\therefore f_Y(y)= \frac{1}{2}{-\frac{y}{2}}$,  $y>0$  
-  
-  
-  #### Example 2  
+$\therefore f_Y(y)= \frac{1}{2}{-\frac{y}{2}}$,  $y>0$  
   
   
-
-
-
-
-
-
+#### Example 2  
+  
+$F(x)= \begin{cases}
+0 & \text{if } x < 0 \\ ,  
+\frac{1}{2}(x+1) & \text{if } 0 \leq x < 1 \\  ,  
+1 & \text{if } x \geq 1  
+\end{cases} $  
+  
+$P(-3 < X \leq \frac{1}{2}) = F(\frac{1}{2}) - F(-3)= \frac{3}{4}$  
+$P(X=0)= F(0) - F(0-)= \frac{1}{2}$  
+  
+  
+  
 
 
 
