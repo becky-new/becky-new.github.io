@@ -201,6 +201,18 @@ $= (\sqrt{y})^2 = y$ ,  $0<y<1$
 따라서 $f_Y(y)= I(0<y<1)$  
 
 
+#### Example 3  
+
+$f_X(x)= \frac{1}{2} I(-1 < x < 1)$일 때, $Y= X^2$의 PDF를 구해보자.  
+
+$F_Y(y) = P(Y \leq y) = P(X^2 \leq y)$,  $y>0$  
+$= P(-\sqrt{y} \leq X \leq \sqrt{y} $  
+$= \int_{-\sqrt{y}}^{\sqrt{y}} f_X(x) \, dx$  
+$= \int_{-\sqrt{y}}^{\sqrt{y}} \frac{1}{2} \, dx$  
+$= \sqrt{y}$  
+
+따라서 $f_Y(y)= \frac{1}{2\sqrt{y}} I(0 \leq y \leq 1)$  
+
 
 
 
