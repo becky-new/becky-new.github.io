@@ -67,6 +67,9 @@ use_math: true
 i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$  
   + $f(x)= f(x_0) + \frac{f'(x_0)}{1!}(x-x_0)^1 + \frac{f''(x_0)}{2!}(x-x_0)^2 + \cdots$  
   $= \sum_{j=0}^{\infty} \frac{f^(j)(x_0)}{j!}(x-x_0)^j$  
+  
+  + As a special case: $f(x)= \sum_{j=0}^{k} \frac{f^(j)(x_0)}{j!}(x-x_0)^j + \frac{f^{k+1}(\xi)}{(k+1)!}(x-x_0)^{k+1}$ = leading term + remainder term  
+  
 ii. 
 
 
