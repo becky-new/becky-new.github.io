@@ -220,7 +220,30 @@ $= \sqrt{y}$
 
 X를 PDF로 $f_X(x)$를 가지고 support는 $S_X$를 가지는 연속 확률 변수라 하자. $Y= g(X)$라고 하고, 이 $g(X)$가 일대일 대응 미분 가능 함수일 때, Y의 PDF는 다음과 같다.  
 
-$f_Y(y) = f_X(g^{-1}(y)) \vert \frac{dx}{dy}\vert$,  $y \in S_Y$ 이며, $S_Y= \lbrace y= g(x) : x \in S_X \rbrace$ 이다.  
+$f_Y(y) = f_X(g^{-1}(y)) \vert \frac{dx}{dy}\vert$,  $y \in S_Y$ 이며,  
+$S_Y= \lbrace y= g(x) : x \in S_X \rbrace$ 이다.  
+
+
+<span style='color: #A2A2A2'> [pf] $g(X)$를 increasing 한다고 가정해보자.  
+  $F_Y(y)= P(g(X) \leq y)$  
+  $=P(X \leq g^{-1}(y)) = F_X(g^[-1}(y))$  
+  $\therefore f_Y(y) = \frac{d}{dy} F_Y(y)$  
+  $= f_X(g^{-1}(y))\frac{dx}{dy}$  
+  
+  $g(X)$가 decreasing해도 증명 방식은 똑같다.</span>  
+  
+  
+  #### Example 1  
+  
+  $f_X(x)= I(0<x<1)$일 때, $Y= -2 \log{x}$의 PDF를 구해보자.  
+  
+  $g^{-1}(y)= e^{-\frac{y}{2}}$,  $\frac{dx}{dy}= -\frac{1}{2} e^{-\frac{y}{2}}$  
+  
+  $\therefore f_Y(y)= \frac{1}{2}{-\frac{y}{2}}$,  $y>0$  
+  
+  
+  
+
 
 
 
