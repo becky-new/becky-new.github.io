@@ -57,7 +57,8 @@ use_math: true
 
 * $E(x^k)$ : k-th moment (k차 적률)  
 * $E\[(x-k)^k]$ : k-th central moment  
-* Uniqueness of mgf: $F_X(z) = F_Y(z)$,  $\forall z \in R$,  $iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$  
+* Uniqueness of mgf: $F_X(z) = F_Y(z)$,  $\forall z \in R$,  
+$iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$  
 
 
 ---  
@@ -69,8 +70,9 @@ i. 1차원: $f: R^1 \rightarrow R^1$,  infinitely differentiable at $x= x_0$
   $= \sum_{j=0}^{\infty} \frac{f^{(j)}(x_0)}{j!}(x-x_0)^j$  
   
   + As a special case: $f(x)= \sum_{j=0}^{k} \frac{f^{(j)}(x_0)}{j!}(x-x_0)^j + \frac{f^{(k+1)}(\xi)}{(k+1)!}(x-x_0)^{k+1}$ = leading term + remainder term  
+  + $\xi$: $x$와 $x_0$ 사이의 값  
   
-ii. 
+ii. d차원: $f: R^d \rightarrow R^1$,  infinitely differentiable at $mathbf{X}= mathbf{X_0}$
 
 
 
