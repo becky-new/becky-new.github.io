@@ -89,15 +89,21 @@ iii. d차원 $\rightarrow$ p차원: $f: R^d \rightarrow R^1$,  infinitely differ
 1. mgf may not exist : example pdf $f(x) = \frac{1}{x^2} I(x>1)$  
 
 2. Sometimes, pdf can be found from the mgf  
-  * $M_X(t)= \frac{1}{10} e^t + \frac{2}{10} e^{2t} + \frac{3}{10} e^{3t} + \frac{4}{10} e^{4t}$  
+  * $M_X(t)= \frac{1}{10} e^t + \frac{2}{10} e^{2t} + \frac{3}{10} e^{3t} + \frac{4}{10} e^{4t}$ 이라고 하자.  
   * $M_X(t) = \sum e^{tx}p(x) = p(1)e^t + p(2)e^{2t} + p(3)e^{3t} + p(4)e^{4t}$  
   * by the uniqueness of polynomial coeff $\rightarrow p(x)= \frac{x}{10}$,  $x= 1,2,3,4$  
     + <span style='color:#A2A2A2'> uniqueness of polynomial coefficient: $a_0 + a_1x + a_2x^2 + \cdots = b_0 + b_1x + b_2x^2 + \cdots$,  $\forall x \Rightarrow a_i = b_i$,  $i= 0,1,2,\cdots,n$ </span>  
     
     
 3. mgf를 이용해 $E(X^m)$을 계산할 수 있다.  
-  * $M_X(t) = E(e^{tX}) = E\[1 + tX + \frac{t^2 X^2}{2!} + \frac{t^3 X^3}{3!} + \cdots] = 1+ tE(X) + \frac{t^2}{2!} E(X^2) + \cdots$  
+  * $M_X(t) = E(e^{tX}) = E\[1 + tX + \frac{t^2 X^2}{2!} + \frac{t^3 X^3}{3!} + \cdots]$  
+  $= 1+ tE(X) + \frac{t^2}{2!} E(X^2) + \cdots$  
   * $\therefore M_X^{(m)}(0) = E(X^m)$  
+
+
+
+
+
 
 
 
