@@ -167,7 +167,7 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
 
 
 #### How to compute the PDF of Y=g(x), where g is differentiable and the PDF of X is known?  
-1. CDF of Y $\leftarrow$ PDF ($fY(y)$): CDF technique  
+1. CDF of Y $\leftarrow$ PDF ($f_Y(y)$): CDF technique  
 2. Transformation technique (Jacobian)  
 
 
@@ -185,7 +185,7 @@ x^2 & \text{if } 0 \leq x < 1 \\  ,
 
 따라서 $f_X(x) = \begin{cases}
 2x & \text{if } 0 \leq x \leq 1 \\  ,  
-0 & \text{if } otherwise  
+0 & \text{otherwise}  
 \end{cases} $  
 
 
@@ -193,8 +193,10 @@ x^2 & \text{if } 0 \leq x < 1 \\  ,
 
 위 Example 1에 이어, $Y= X^2$의 PDF를 구해보자.  
 
-$F_Y(y)= P(Y \leq y) = P(X^2 \leq y) \, y>0  
-= P(-\sqrt{y} \leq X \leq \sqrt{y} = P(0 \leq X \leq \sqrt{y}) = F_X(\sqrt{y}) - F_X(0) = (\sqrt{y})^2 = y \, 0<y<1$  
+$F_Y(y)= P(Y \leq y) = P(X^2 \leq y)$, $y>0$  
+$= P(-\sqrt{y} \leq X \leq \sqrt{y} $  
+$= P(0 \leq X \leq \sqrt{y}) = F_X(\sqrt{y}) - F_X(0) $  
+$= (\sqrt{y})^2 = y$ , $0<y<1$  
 
 따라서 $f_Y(y)= I(0<y<1)$  
 
