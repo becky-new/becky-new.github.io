@@ -28,8 +28,8 @@ use_math: true
 
 ### Expectation of a Random Variable  
 
-* $E(x)= \int_{-\infty}^{\infty} xf_X(x) \, dx$  $if \int_{-\infty}^{\infty} \vert x \vert f_X(x) \, dx < \infty (conti.)$  
-* $E(x)= \sum_{x \in S_X} x p_X(x)$  $if \sum \vert x \vert p(x) < \infty (discrete)$  
+* $E(x)= \int_{-\infty}^{\infty} xf_X(x) \, dx$,  $if \int_{-\infty}^{\infty} \vert x \vert f_X(x) \, dx < \infty (conti.)$  
+* $E(x)= \sum_{x \in S_X} x p_X(x)$,  $if \sum \vert x \vert p(x) < \infty (discrete)$  
 
 
 * $Y= g(X)$의 expectation은 다음과 같다.  
@@ -48,13 +48,16 @@ use_math: true
 ### Some special Expectations  
 
 1. $\mu = E(X)$ : **population** mean of r.v. $X$  
-2. $\sigma^2 = E(X-/mu)^2$ : variance of r.v. $X$  
+2. $\sigma^2 = E(X-\mu)^2$ : variance of r.v. $X$  
   * $\sigma^2 = E(X^2) - (\lbrace E(X) \rbrace)^2$  
 3. $\sigma = \sqrt{\sigma^2}$ : standard variation  
 4. Moment Generating Function (mgf, 적률 생성 함수): $M_X(t) = E(e^{tX}) = \int_{\infty}^{\infty} e^{tx}f(x) \, dx$  
   * <span style='color:#A2A2A2'> $E(e^{tX}) &lt; \infty$,  $\vert t \vert &lt; h$ for some $h&gt;0$ </span>  
 
 
+* $E(x^k)$ : k-th moment (k차 적률)  
+* $E\[(x-k)^k]$ : k-th central moment  
+* Uniqueness of mgf: $F_X(z) = F_Y(z)$,  $\forall z \in R  iff M_X(t) = M_Y(t)$,  $\forall t \in (-h,h)$, $h>0$  
 
 
 
