@@ -20,9 +20,8 @@ use_math: true
 **목차**  
 [1. Expectation of a Random Variable](#expectation-of-a-random-variable)  
 [2. Some special Expectations](#some-special-expectations)  
-[3. Theorem](#Theorem)  
-[4. Discrete Random Variables](#discrete-random-variables)  
-[5. Continuous Random Variables](#continuous-random-variables)  
+[3. Taylor Expansion](#taylor-expansion)  
+[4. Remark](#remark)  
 
 ---   
 
@@ -105,19 +104,23 @@ iii. d차원 $\rightarrow$ p차원: $f: R^d \rightarrow R^1$,  infinitely differ
   * $\varphi(t) = E(e^{itX})$ : ch.f of r.v. $X$  
   * mgf와 유사하지만 지수에 imaginary를 추가해주었다.  
   * mgf는 존재하지 않을 수 있지만, **ch.f는 항상 존재한다.**  
-  
-    * <span style='color:#A2A2A2'>오일러 정리 $e^{ix} = \cos{x} + i\sin{x}$</span>  
+    + <span style='color:#A2A2A2'>오일러 정리 $e^{ix} = \cos{x} + i\sin{x}$</span>  
   
 5. Cumulant generating function (cgf)  
   * $\psi(t) = \log{M(t)}$ : cgf of r.v. $X$  
-  * 
+  * moment와 cumulant 간의 관계  
+    + $\kappa_m$: m-th cumulant라고 하면, $\kappa_0 \equiv 0$, $\kappa_1 = \mu_1$ , $\kappa_2 = \mu_2 - (\mu_1)^2 \equiv \sigma^2$ , $\cdots$  
+    
 
-
-
-
-
-
-
+6. Skewness and Kurtosis  
+  * skewness 왜도: $\rho_3 = \frac{E\[(X-\mu)^3]}{\sigma^3}$  
+    + ![dlalwl](https://i.imgur.com/YGSTZjI.jpeg)  
+    
+  * kurtosis 첨도: $\rho_4 = \frac{E\[(X-\mu)^4]}{\sigma^4}$  
+    + ![dalwl](https://i.imgur.com/6TZ120m.jpeg)  
+    
+    
+---  
 
 
 
