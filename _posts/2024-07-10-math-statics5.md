@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "[수리통계학 I] 5강 요약 정리"
+title: '[수리통계학 I] 5강 요약 정리'
 author: becky
-categories: [ datascience ]
-tags: [수리통계학, data science]
-image: https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+categories:
+  - datascience
+tags:
+  - 수리통계학
+  - data science
+image: >-
+  https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 use_math: true
 ---
 
@@ -116,7 +120,7 @@ iii. d차원 $\rightarrow$ p차원: $f: R^d \rightarrow R^1$,  infinitely differ
   * skewness 왜도: $\rho_3 = \frac{E\[(X-\mu)^3]}{\sigma^3}$  
     + ![dlalwl](https://i.imgur.com/YGSTZjI.jpeg)  
     
-  * kurtosis 첨도: $\rho_4 = \frac{E\[(X-\mu)^4]}{\sigma^4}$  
+    * kurtosis 첨도: $\rho_4 = \frac{E\[(X-\mu)^4]}{\sigma^4}$  
     + ![dalwl](https://i.imgur.com/6TZ120m.jpeg)  
     
     
@@ -125,7 +129,4 @@ iii. d차원 $\rightarrow$ p차원: $f: R^d \rightarrow R^1$,  infinitely differ
 
 
 
-[Scroll to top ↑](#){: .btn .btn--primary }  
-
-
-
+[Scroll to top ↑](#){: .btn .btn--primary }
