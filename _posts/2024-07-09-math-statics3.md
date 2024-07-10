@@ -215,7 +215,7 @@ $= \sqrt{y}$
 
 ---  
 
-### Theorem_transformation technique  
+### Theorem: transformation technique  
 
 X를 PDF로 $f_X(x)$를 가지고 support는 $S_X$를 가지는 연속 확률 변수라 하자. $Y= g(X)$라고 하고, 이 $g(X)$가 일대일 대응 미분 가능 함수일 때, Y의 PDF는 다음과 같다.  
 
