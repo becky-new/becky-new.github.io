@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Book review] Mickey 7"
+title:  "[Book review] MICKEY 7"
 author: becky
 categories: [ review ]
 tags: [book, 독후감]
