@@ -101,6 +101,16 @@ iii. d차원 $\rightarrow$ p차원: $f: R^d \rightarrow R^1$,  infinitely differ
   * $\therefore M_X^{(m)}(0) = E(X^m)$  
 
 
+4. Characteristic function (ch.f)  
+  * $\varphi(t) = E(e^{itX})$ : ch.f of r.v. $X$  
+  * mgf와 유사하지만 지수에 imaginary를 추가해주었다.  
+  * mgf는 존재하지 않을 수 있지만, **ch.f는 항상 존재한다.**  
+  
+    * <span style='color:#A2A2A2'>오일러 정리 $e^{ix} = \cos{x} + i\sin{x}$</span>  
+  
+5. Cumulant generating function (cgf)  
+  * $\psi(t) = \log{M(t)}$ : cgf of r.v. $X$  
+  * 
 
 
 
