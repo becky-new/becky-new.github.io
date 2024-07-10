@@ -259,7 +259,7 @@ $P(X=0)= F(0) - F(0-)= \frac{1}{2}$
   
   
 
-
+---   
 
 
 [Scroll to top ↑](#){: .btn .btn--primary }
