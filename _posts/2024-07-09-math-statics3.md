@@ -229,7 +229,8 @@ $S_Y= \lbrace y= g(x) : x \in S_X \rbrace$ 이다.
   $\therefore f_Y(y) = \frac{d}{dy} F_Y(y)$  
   $= f_X(g^{-1}(y))\frac{dx}{dy}$  
   
-  $g(X)$가 decreasing해도 증명 방식은 똑같다.</span>  
+  $g(X)$가 decreasing해도 증명 방식은 똑같다.
+</span>  
   
   
 #### Example 1  
