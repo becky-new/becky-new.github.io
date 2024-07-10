@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "[Book review] MICKEY 7"
+title: '[Book review] MICKEY 7'
 author: becky
-categories: [ review ]
-tags: [book, 독후감]
-image: https://contents.kyobobook.co.kr/sih/fit-in/200x0/pdt/9781250875280.jpg
-description: "INTERESTIIIIIIING"
+categories:
+  - review
+tags:
+  - book
+  - 독후감
+image: 'https://contents.kyobobook.co.kr/sih/fit-in/200x0/pdt/9781250875280.jpg'
+description: INTERESTIIIIIIING
 ---
 
 ## [Mickey 7]  
@@ -21,7 +24,7 @@ Mickey 7은 알라딘에서 구매할 책을 고르다가 우연히 발견하였
 ### 전체적인 감상  
 우리의 Mickey Barnes는 Expendable이라는 포지션으로 외부 행성 탐사에 참가하게 된 지극히도 평범한 사람이다. 사실 책을 읽으면서 들었던 미키에 대한 감상은 뭔가... 소시민... 호구...(근데 하는 생각이나 행동만 봐도 어어엄청 착한 듯)에 가까웠는데, 그렇기에 보여줄 수 있는 평범의 대단함이 소설의 주인공 설정 의도인 것 같다.  
 
-우리의 미키군은 독특한 포지션 때문에 이 행성에 올 수 있었지만, 그 포지션 때문에 상사든 친구든 모든 면에서 억까(...)도 정말 많이 당하고, 이리저리 온갖 험한 곳에 굴림 당하다 죽고 교체되는 게 일상이었다. 솔직히 미키와 친구를 해주는 애들도... Nasha는 히로인 역할이니 그렇다 쳐도, 나머지(라고 해봤자 한 명인) 난 미키가 왜 친구를 하는지 모르겠다고 생각했다... <span style="color:A2A2A2">차라리 혼자 사는 게 좋을 것 같아 미키야</span>  
+우리의 미키군은 독특한 포지션 때문에 이 행성에 올 수 있었지만, 그 포지션 때문에 상사든 친구든 모든 면에서 억까(...)도 정말 많이 당하고, 이리저리 온갖 험한 곳에 굴림 당하다 죽고 교체되는 게 일상이었다. 솔직히 미키와 친구를 해주는 애들도... Nasha는 히로인 역할이니 그렇다 쳐도, 나머지(라고 해봤자 한 명인) 난 미키가 왜 친구를 하는지 모르겠다고 생각했다... <span style="color:#A2A2A2">차라리 혼자 사는 게 좋을 것 같아 미키야</span>  
 
 그런데 **나는 정말 재미있게 읽었다.** 이 소설을 읽고 후속편까지 바로 사서 보고, 이런 장르의 SF 우주 탐사 소설이 보이면 (원래도 좋아하긴 했지만) 더 관심을 가졌으니 말이다. 그 중에서도 복제 인간 소재가 정~\~\~말 흥미로웠다. 영화가 이를 어떻게 각색할지는 모르겠지만 (아마 Mickey 17이었던 것 같다. 내가 아는 Mickey는 7번째인데 17번째라고?!) 나온다면 감독도 감독이고 원작도 원작이니 분명 보러갈 것 같다.  
 
@@ -56,9 +59,4 @@ Mickey 8에 대한 묘사나 말투 등에서 내가 아는 Mickey 7이랑은 �
 
 
 
-[Scroll to top ↑](#){: .btn .btn--primary }  
-
-
-
-
-
+[Scroll to top ↑](#){: .btn .btn--primary }
