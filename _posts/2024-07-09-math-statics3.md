@@ -166,6 +166,44 @@ $g(x)= x-1 \Rightarrow g^{-1}(y) = y+1$ 이므로, $P_Y(y) = P_X(y+1) = (\frac{1
   2. $\int_{-\infty}^{\infty} f_X(t) \, dt = 1$ ($F_X(\infty) = 1$)  
 
 
+#### How to compute the PDF of Y=g(x), where g is differentiable and the PDF of X is known?  
+1. CDF of Y $\leftarrow$ PDF ($fY(y)$): CDF technique  
+2. Transformation technique (Jacobian)  
+
+
+#### Example 1  
+
+지름이 1인 원이 있고, 내부 영역에서 랜덤하게 점을 고른다고 하자. X가 원점에서 해당 점까지의 거리를 의미할 때, X의 PDF를 구해보자.  
+
+$0 \leq x \leq 1$이며, $F_X(x)= P(X \leq x) = \frac{\pi x^2}{\pi 1^2} = x^2$이다.  
+$P(X \geq 0)=0$, $P(X \geq 1)= 1$이므로,  
+$F_X(x) = \begin{cases}
+0 & \text{if } x < 0 \\ ,  
+x^2 & \text{if } 0 \leq x < 1 \\  ,  
+1 & \text{if } x \geq 1  
+\end{cases} $  
+
+따라서 $f_X(x) = \begin{cases}
+2x & \text{if } 0 \leq x \leq 1 \\  ,  
+0 & \text{if } otherwise  
+\end{cases} $  
+
+
+#### Example 2  
+
+위 Example 1에 이어, $Y= X^2$의 PDF를 구해보자.  
+
+$F_Y(y)= P(Y \leq y) = P(X^2 \leq y) \, y>0  
+= P(-\sqrt{y} \leq X \leq \sqrt{y} = P(0 \leq X \leq \sqrt{y}) = F_X(\sqrt{y}) - F_X(0) = (\sqrt{y})^2 = y \, 0<y<1$  
+
+따라서 $f_Y(y)= I(0<y<1)$  
+
+
+
+
+
+
+
 
 
 
