@@ -21,10 +21,7 @@ use_math: true
 [1. Distributions of Two Random Variables](#distributions-of-two-random-variables)  
 [2. Examples](#example-1)  
 [3. Transformations: Bivariate r.v.s](#transformations)  
-[4. Discrete Random Variables](#discrete-random-variables)  
-[5. Continuous Random Variables](#continuous-random-variables)  
-[6. Bayes Theorem](#bayes-theorem)  
-[7. Independent](#independent)  
+[4. Examples- transformation](#example-1-discrete)  
 
 ---   
 
