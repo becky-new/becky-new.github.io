@@ -36,14 +36,19 @@ use_math: true
   
   + cdf of $\mathbf{X}$  
     * $F_{X_1,X_2}(x_1, x_2) = P(X_1 \leq x_1, X_2 \leq x_2)$  
-    * $P(a_1 < X_1 \leq b_1, a_2 < X_2 \leq b_2) = F_{X_1,X_2}(b_1, b_2) - F_{X_1,X_2}(a_1, b_2) - F_{X_1,X_2}(b_1, a_2) + F_{X_1,X_2}(a_1, a_2)  
+    * $P(a_1 < X_1 \leq b_1, a_2 < X_2 \leq b_2) = F_{X_1,X_2}(b_1, b_2) - F_{X_1,X_2}(a_1, b_2) - F_{X_1,X_2}(b_1, a_2) + F_{X_1,X_2}(a_1, a_2)$  
     * ![dlalwl](https://i.imgur.com/Vu01lCi.jpeg)  
     
   
   + joint prob. mass function if $\mathbf{X}$ is discrete: $p_{X_1,X_2}(x_1, x_2) = P(X_1= x_1, X_2= x_2)$  
   + joint pdf for continuous r.v.: $f_{X_1,X_2}(x_1, x_2) = \frac{\partial^2 F_{X_1,X_2}(x_1, x_2)}{\partial x_1 \partial x_2}$  
     * $F_{X_1,X_2}(x_1, x_2) = \int_{-\infty}^{x_2} \int_{-\infty}^{x_1} f_{X_1,X_2}(w_1, w_2) \, dw_1 dw_2$  
-
+    
+  
+  + Marginal of $X_1$  
+    * cdf: $F_{X_1}(x_1)= \lim_{x_2 \to \infty} F_{X_1,X_2}(x_1, x_2)$  
+    * pmf: $p_{X_1}(x_1)= \sum_{x_2} p_{X_1,X_2}(x_1, x_2)$  
+    * pdf: $f_{X_1}(x_1)= \int_{-\infty}^{\infty} f_{X_1,X_2}(x_1, x_2) \, dx_2$  
 
 
 
