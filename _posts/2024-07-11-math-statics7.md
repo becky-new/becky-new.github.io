@@ -49,11 +49,24 @@ use_math: true
     * cdf: $F_{X_1}(x_1)= \lim_{x_2 \to \infty} F_{X_1,X_2}(x_1, x_2)$  
     * pmf: $p_{X_1}(x_1)= \sum_{x_2} p_{X_1,X_2}(x_1, x_2)$  
     * pdf: $f_{X_1}(x_1)= \int_{-\infty}^{\infty} f_{X_1,X_2}(x_1, x_2) \, dx_2$  
+    
+  
+#### Example 1  
 
+$f_{X_1,X_2}(x_1, x_2)= x_1 + x_2$,  $0 < x_1 < 1$,  $0 < x_2 < 1$이다.  
+$P(X_1 \leq \frac{1}{2})$와 $P(X_1 + X_2 \leq 1)$을 구해보자.  
 
-
-
-
+1. $P(X_1 \leq \frac{1}{2})$  
+  * $$P(X_1 \leq \frac{1}{2})= P(X_1 \leq \frac{1}{2}, 0 \leq x_2 \leq 1)$  
+    $= \int_{0}^{\frac{1}{2}} f_1(x_1) \, dx_1$  
+  * $f_{X_1}(x_1) = \int f_{X_1,X_2}(x_1, x_2) \, dx_2$  
+    $= \int_{0}^{1} (x_1 + x_2) \, dx_2 = x_1 + \frac{1}{2}$  
+  
+  * $\therefore P(X_1 \leq \frac{1}{2}) = \int_{0}^{\frac{1}{2}} (x_1 + \frac{1}{2}) \, dx_1$  
+    $= \frac{3}{8}$  
+  
+  
+  
 
 
 
