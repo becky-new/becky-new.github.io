@@ -144,7 +144,6 @@ $f(x,y)= e^{-y} I(0 < x < y < \infty)$: jpdf(joint pdf) of $(X, Y)$일 때 mgf�
     + 기본 변환은 discrete case와 똑같이 생각한다. <span style='color:#A2A2A2'>$(x_1, x_2) \rightarrow (y_1, y_2)$일 때, $y_1= u_1(x_1, x_2), y_2= u_2(x_1, x_2)$이고 역함수는 $x_1= w_1(y_1, y_2), x_2= w_2(y_1, y_2)$이다.</span>  
     + Jacobian $J = \begin{pmatrix}
 \frac{\partial x_1}{\partial y_1} & \frac{\partial x_1}{\partial y_2} \\\  
-
 \frac{\partial x_2}{\partial y_1} & \frac{\partial x_2}{\partial y_2}
 \end{pmatrix}$  
     + jpdf of $Y_1$ and $Y_2$: $f_{Y_1, Y_2}(y_1, y_2)= f_{X_1, X_2}(w_1(y_1,y_2), w_2(y_1,y_2)) \vert J \vert$,  $(y_1, y_2) \in \mathscr{T}$  
@@ -164,7 +163,11 @@ $p_{X_1, X_2}(x_1, x_2)= \frac{u_1^{x_1}u_2^{x_2}e^{-u_1-u_2}}{x_1!x_2!}$,  $x_1
 
 #### Example 2: continuous  
 
+$f_{X_1, X_2}(x_1, x_2)= I(0<x_1<1, 0<x_2<1)$일 때, $Y_1= X_1 + X_2$의 pdf를 구하여라.  
 
+1. cdf technique  
+
+2. transformation  
 
 
 
