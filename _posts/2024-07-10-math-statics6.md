@@ -23,7 +23,7 @@ use_math: true
 
 **목차**  
 [1. Theorem 1](#theorem-1)  
-[2. Markov's Inequality](#markov-s-inequality)  
+[2. Markov's Inequality](#markov's-inequality)  
 [3. Chebyshev Inequality](#chebyshev-inequality)  
 [4. Theorem 2](#theorem-2)  
 [5. Jensen's Inequality](#jensen-s-inequality)  
@@ -93,11 +93,13 @@ $\lbrace a_1, \cdots, a_n\rbrace$ : set of positive numbers.
 $X$를 $P(X= a_i) = \frac{1}{n}$,  $i=1,\cdots,n$에 대한 r.v.라고 하자.  
 
 1. $E(X) = \sum_{i=1}^{n} a_i\frac{1}{n} = \bar{a}$ : Arithmetic mean (AM, 산술 평균)  
+
 2. $-\log{x}$가 convex이므로, Jensen's ineq.를 사용할 수 있다.  
   + $-\log{\[E(X)]} = -\log{\bar{a}} \leq E\[-\log{X}]$  
-  $= -\frac{1}{n}\sum\log{a_i} = -\log{a_1,\cdots,a_n)^{\frac{1}{n}}$  
+  $= -\frac{1}{n}\sum\log{a_i} = -\log{a_1,\cdots,a_n}^{\frac{1}{n}}$  
+    * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}}$: geometric mean (GE, 기하 평균) $\leq \bar{a}$
 
-
+3.
 
 
 
