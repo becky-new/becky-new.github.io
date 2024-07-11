@@ -166,8 +166,10 @@ $p_{X_1, X_2}(x_1, x_2)= \frac{u_1^{x_1}u_2^{x_2}e^{-u_1-u_2}}{x_1!x_2!}$,  $x_1
 $f_{X_1, X_2}(x_1, x_2)= I(0<x_1<1, 0<x_2<1)$일 때, $Y_1= X_1 + X_2$의 pdf를 구하여라.  
 
 1. cdf technique  
+  * ![dlalwl](https://i.imgur.com/9wbQF6A.jpeg)  
 
 2. transformation  
+  * ![dlalwl](https://i.imgur.com/5TEf5Uj.jpeg)  
 
 
 
