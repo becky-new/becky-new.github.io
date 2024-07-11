@@ -125,17 +125,28 @@ $f(x,y)= e^{-y} I(0 < x < y < \infty)$: jpdf(joint pdf) of $(X, Y)$일 때 mgf�
 
 * $X_1$과 $X_2$의 jpdf를 알고 있을 때, $Y= g(X_1, X_2)$의 분포를 구하는 방법에는 2가지가 있다.  
   1. Find cdf of Y → take derivative  
-  2. Use transformation technique  
+  2. Use <u>transformation</u> technique  
   
 
 **1. discrete case**  
+  * transformation on $Y= g(x_1, x_2)$  
+  
   * $(X_1, X_2)$: discrete r.v. with jpdf $p_{X_1, X_2}(x_1, x_2)$ and support $S$  
     * ![이미지](https://i.imgur.com/J7ugTTO.jpeg)  
     
     * $p_{Y_1, Y_2}(y_1, y_2) = p_{X_1, X_2}(w_1(y_1,y_2), w_2(y_1,y_2))$,  $(y_1, y_2) \in \mathscr{I}$  
     * $\Rightarrow$ pmf of $Y_i$: $P_{Y_1}(y_1) = \sum_{y_2} P_{Y_1, Y2}(y_1, y_2)$  
     
-
+**2. Continuous case**  
+  1. cdf technique: $F_Y(y)= p(g(x_1, x_2) \leq y) \rightarrow f_Y(y)= F_Y'(y)  
+  2. transformation  
+  
+    + $X_1$, $X_2$의 jpdf $f_{X_1, X_2}(x_1, x_2)$와 support $S$  
+    
+    + 기본 변환은 discrete case와 똑같이 생각한다.  
+      * <span style='color:#A2A2A2'>$(x_1, x_2) \rightarrow (y_1, y_2)$일 때, $y_1= u_1(x_1, x_2), y_2= u_2(x_1, x_2)$이고 역함수는 $x_1= w_1(y_1, y_2), x_2= w_2(y_1, y_2)$이다.</span>  
+      
+    + Jacobian $J= \vert {\frac{\partial x_1}{\partial y_1} & \frac{\partial x_1}{\partial y_2} \\  \frac{\partial x_2}{\partial y_1} & \frac{\partial x_2}{\partial y_2}  \end{pmatrix} \vert$  
 
 
 
