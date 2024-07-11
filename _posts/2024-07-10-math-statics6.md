@@ -12,13 +12,12 @@ image: >-
 use_math: true
 ---
 
-## [수리통계학 I] Important Inequalities & Multivariate Distribution  
+## [수리통계학 I] Important Inequalities  
 ### 6강 요약 정리  
 
 **부산대학교 김충락 교수님의 2020년 1학기 KOCW 강의를 들으며 요약하는 글입니다.**  
 
 [6강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=82ee00e4daaee27b)  
-[4강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=8aec1210d15581cd)  
 
 
 **목차**  
@@ -26,9 +25,7 @@ use_math: true
 [2. Markov's Inequality](#markovs-inequality)  
 [3. Chebyshev Inequality](#chebyshev-inequality)  
 [4. Theorem 2](#theorem-2)  
-[5. Jensen's Inequality](#jensen-s-inequality)  
-[6. Bayes Theorem](#bayes-theorem)  
-[7. Independent](#independent)  
+[5. Jensen's Inequality](#jensens-inequality)  
 
 ---  
 
@@ -106,18 +103,6 @@ $X$를 $P(X= a_i) = \frac{1}{n}$,  $i=1,\cdots,n$에 대한 r.v.라고 하자.
 
 
 ---  
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
