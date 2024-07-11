@@ -23,7 +23,7 @@ use_math: true
 
 **목차**  
 [1. Theorem 1](#theorem-1)  
-[2. Markov's Inequality](#markov's-inequality)  
+[2. Markov's Inequality](#markovs-inequality)  
 [3. Chebyshev Inequality](#chebyshev-inequality)  
 [4. Theorem 2](#theorem-2)  
 [5. Jensen's Inequality](#jensen-s-inequality)  
@@ -96,8 +96,8 @@ $X$를 $P(X= a_i) = \frac{1}{n}$,  $i=1,\cdots,n$에 대한 r.v.라고 하자.
 
 2. $-\log{x}$가 convex이므로, Jensen's ineq.를 사용할 수 있다.  
   + $-\log{\[E(X)]} = -\log{\bar{a}} \leq E\[-\log{X}]$  
-  $= -\frac{1}{n}\sum\log{a_i} = -\log{a_1,\cdots,a_n}^{\frac{1}{n}}$  
-    * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}}$: geometric mean (GE, 기하 평균) $\leq \bar{a} = \frac{1}{n}\sum a_!$  
+  $= -\frac{1}{n}\sum\log{a_i} = -\log{(a_1,\cdots,a_n)}^{\frac{1}{n}}$  
+    * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}}$: geometric mean (GE, 기하 평균) $\leq \bar{a} = \frac{1}{n}\sum a_i$  
 
 3. $a_i$를 $\frac{1}{a_i}$로 대체하면, $(\frac{1}{a_1\cdots a_n})^{\frac{1}{n}} \leq \frac{1}{n}\sum \frac{1}{a_i}$  
   * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}} \geq \frac{1}{\frac{1}{n}\sum \frac{1}{a_i}}$ : harmonic mean (HM, 조화 평균)  
