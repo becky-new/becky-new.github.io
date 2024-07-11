@@ -32,7 +32,7 @@ use_math: true
 
 1. $(X_1, X_2)$: random vector  
   + $\mathscr{D}= \lbrace(x_1, x_2): x_1= X_1(c), x_2= X_2(c), c\in\mathscr{C}\rbrace$  
-  + vector notation $\mathbf{X} = {X_1\choose X_2} = (X_1, X_2)'$  
+  + vector notation $\mathbf{X} = {X_1\choose X_2} = (X_1, X_2)' = (X_1, X_2)^T$  
   
   + cdf of $\mathbf{X}$  
     * $F_{X_1,X_2}(x_1, x_2) = P(X_1 \leq x_1, X_2 \leq x_2)$  
@@ -63,10 +63,12 @@ $P(X_1 \leq \frac{1}{2})$와 $P(X_1 + X_2 \leq 1)$을 구해보자.
   * $f_{X_1}(x_1) = \int f_{X_1,X_2}(x_1, x_2) \, dx_2$  
     $= \int_{0}^{1} (x_1 + x_2) \, dx_2 = x_1 + \frac{1}{2}$  
   
-  * $\therefore P(X_1 \leq \frac{1}{2}) = \int_{0}^{\frac{1}{2}} (x_1 + \frac{1}{2}) \, dx_1$  
-    $= \frac{3}{8}$  
+  * $\therefore P(X_1 \leq \frac{1}{2}) = \int_{0}^{\frac{1}{2}} (x_1 + \frac{1}{2}) \, dx_1= \frac{3}{8}$  
   
-  
+
+2. $P(X_1 + X_2 \leq 1)$  
+  * $P(X_1 + X_2 \leq 1)= \int_{-0}^{1} \int_{0}^{1-x_2} f_{X_1,X_2}(w_1, w_2) \, dw_1 dw_2$  
+    $= \int_{-0}^{1} \int_{0}^{1-x_2} (x_1+x_2) \, dw_1 dw_2 = \frac{1}{3}$  
   
 
 
