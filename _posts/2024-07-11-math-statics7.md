@@ -51,6 +51,7 @@ use_math: true
     * pmf: $p_{X_1}(x_1)= \sum_{x_2} p_{X_1,X_2}(x_1, x_2)$  
     * pdf: $f_{X_1}(x_1)= \int_{-\infty}^{\infty} f_{X_1,X_2}(x_1, x_2) \, dx_2$  
     
+    -
   
   + continuous: $E\[g(X_1, X_2)]= \iint g(x_1, x_2)f(x_1, x_2) \, dx_1 dx_2$  
     * <span style='color:#A2A2A2'> $\iint \vert g(x_1, x_2)\vert f(x_1, x_2) \, dx_1 dx_2 &lt; \infty$ </span>  
@@ -88,7 +89,7 @@ $P(X_1 \leq \frac{1}{2})$와 $P(X_1 + X_2 \leq 1)$을 구해보자.
 $f(x_1, x_2)= 8x_1x_2I(0 < x_1 < x_2 < 1)$일 때, $E(X_1{X_2}^2)$와 $E(X_2)$ 그리고 $E\[7X_1{X_2}^2 + 5X_2]$를 구해보자.  
 
 1. $E(X_1{X_2}^2) = \int_{0}^{1} \int{0}^{x_2} x_1{x_2}^2 8x_1 x_2 \, dx_1 dx_2 = \frac{8}{21}$  
-2. $E(X_2)= \int{0}^{1} x_2 f_{x_2}(x_2) \, dx_2 = \int{0}^{1} x_2 \[\int_{0}^{x_2} 8x_1 x_2 \, dx_1] \, dx_2 = \frac{4}{5}$  
+2. $E(X_2)= \int_{0}^{1} x_2 f_{x_2}(x_2) \, dx_2 = \int_{0}^{1} x_2 \[\int_{0}^{x_2} 8x_1 x_2 \, dx_1] \, dx_2 = \frac{4}{5}$  
 3. $E\[7X_1{X_2}^2 + 5X_2]= \frac{20}{3}$  
 
 
