@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "[수리통계학 I] 8강 요약 정리"
+title: '[수리통계학 I] 8강 요약 정리'
 author: becky
-categories: [ datascience ]
-tags: [수리통계학, data science]
-image: https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+categories:
+  - datascience
+tags:
+  - 수리통계학
+  - data science
+image: >-
+  https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 use_math: true
 ---
 
@@ -68,9 +72,4 @@ use_math: true
 
 
 
-[Scroll to top ↑](#){: .btn .btn--primary }  
-
-
-
-
-
+[Scroll to top ↑](#){: .btn .btn--primary }
