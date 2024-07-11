@@ -36,7 +36,8 @@ use_math: true
   
   + cdf of $\mathbf{X}$  
     * $F_{X_1,X_2}(x_1, x_2) = P(X_1 \leq x_1, X_2 \leq x_2)$  
-    * $P(a_1 < X_1 \leq b_1, a_2 < X_2 \leq b_2) = F_{X_1,X_2}(b_1, b_2) - F_{X_1,X_2}(a_1, b_2) - F_{X_1,X_2}(b_1, a_2) + F_{X_1,X_2}(a_1, a_2)$  
+    * $P(a_1 < X_1 \leq b_1, a_2 < X_2 \leq b_2)$  
+      $= F_{X_1,X_2}(b_1, b_2) - F_{X_1,X_2}(a_1, b_2) - F_{X_1,X_2}(b_1, a_2) + F_{X_1,X_2}(a_1, a_2)$  
     * ![dlalwl](https://i.imgur.com/Vu01lCi.jpeg)  
     
   
@@ -57,7 +58,7 @@ $f_{X_1,X_2}(x_1, x_2)= x_1 + x_2$,  $0 < x_1 < 1$,  $0 < x_2 < 1$이다.
 $P(X_1 \leq \frac{1}{2})$와 $P(X_1 + X_2 \leq 1)$을 구해보자.  
 
 1. $P(X_1 \leq \frac{1}{2})$  
-  * $$P(X_1 \leq \frac{1}{2})= P(X_1 \leq \frac{1}{2}, 0 \leq x_2 \leq 1)$  
+  * $P(X_1 \leq \frac{1}{2})= P(X_1 \leq \frac{1}{2}, 0 \leq x_2 \leq 1)$  
     $= \int_{0}^{\frac{1}{2}} f_1(x_1) \, dx_1$  
   * $f_{X_1}(x_1) = \int f_{X_1,X_2}(x_1, x_2) \, dx_2$  
     $= \int_{0}^{1} (x_1 + x_2) \, dx_2 = x_1 + \frac{1}{2}$  
