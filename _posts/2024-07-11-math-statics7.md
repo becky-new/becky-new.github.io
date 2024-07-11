@@ -104,7 +104,13 @@ $f(x_1, x_2)= 8x_1x_2I(0 < x_1 < x_2 < 1)$일 때, $E(X_1{X_2}^2)$와 $E(X_2)$ �
 3. $E\[7X_1{X_2}^2 + 5X_2]= \frac{20}{3}$  
 
 
+#### Example 3  
 
+$f(x,y)= e^{-y} I(0 < x < y < \infty)$: jpdf(joint pdf) of $(X, Y)$일 때 mgf를 구해보자.  
+
+* $M(t_1, t_2)= \int_{0]^{\infty} \int_{x}^{\infty} e^{t_1x+t_2y}e^{-y} \, dydx = \frac{1}{(1-t_1-t_2)(1-t_2)}$  
+* mgf of X: $M(t_1,0) = \frac{1}{1-t_1}$  
+* mgf of Y: $M(0, t_2)= \frac{1}{(1-t_2)^2}$  
 
 
 
