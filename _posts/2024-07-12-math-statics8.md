@@ -42,6 +42,19 @@ use_math: true
 * conditional var. of $X_2$: $Var(X_2\vert X_1)= E\[\lbrace X_2 - E(X_2\vert x_1)\rbrace^2 \vert x_1] = E({X_2}^2 \vert x_1) - E^2(X_2 \vert x_1)$  
 
 
+* Double expectation theorem: $E\[E(X_2 \vert X_1)] = E(X_2)$  
+
+* $Var\[E(X_2\vert X_1)] \leq Var(X_2) = Var\[E(X_2\vert X_1)] + E\[Var(X_2\vert X_1)]$  
+
+
+---  
+
+### Correlation Coefficient  
+
+* $Cov(X, Y) := E\[(X_1-\mu_1)(Y-\mu_2)] = E(XY) - E(X)E(Y)$ : covariance(공분산) between X and Y  
+
+* Corr. coef.: $\rho := \frac{Cov(X, Y)}{\sigma_1\sigma_2} = \frac{E\[(X-\mu_1)(Y-\mu_2)]}{\sigma_1sigma_2}$  
+
 
 
 
