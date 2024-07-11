@@ -62,6 +62,12 @@ use_math: true
     
   + Linearity property of expectation: $E\[k_1g_1(X_1, X_2) + k_2g_2(X_1, X_2)] = k_1E\[g_1(X_1, X_2)] + k_2E\[g_2(X_1, X_2)]$  
   
+  -
+  
+  + $M_{\mathbf{X}}(\mathbf{t}) = E\[e^{\mathbf{t}'\mathbf{X}}]$,  $\mathbf{t}= (t_1, t_2)^T$,  $||\mathbf{t}|| < h$,  $h>0$  
+    $= M_{X_1, X_2}(t_1, t_2)= E\[e^{t_1X_1 + t_2X_2}]$  
+    : mgf of $\mathbf{X}$  
+    
     
   
 #### Example 1  
@@ -79,7 +85,7 @@ $P(X_1 \leq \frac{1}{2})$와 $P(X_1 + X_2 \leq 1)$을 구해보자.
   
 
 2. $P(X_1 + X_2 \leq 1)$  
-  * $P(X_1 + X_2 \leq 1)= \int_{-0}^{1} \int_{0}^{1-x_2} f_{X_1,X_2}(w_1, w_2) \, dw_1 dw_2$  
+  * $P(X_1 + X_2 \leq 1)= \int_{0}^{1} \int_{0}^{1-x_2} f_{X_1,X_2}(w_1, w_2) \, dw_1 dw_2$  
     $= \int_{0}^{1} \int_{0}^{1-x_2} (x_1+x_2) \, dw_1 dw_2 = \frac{1}{3}$  
   
 
