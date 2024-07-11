@@ -138,7 +138,7 @@ $f(x,y)= e^{-y} I(0 < x < y < \infty)$: jpdf(joint pdf) of $(X, Y)$일 때 mgf�
     * $\Rightarrow$ pmf of $Y_i$: $P_{Y_1}(y_1) = \sum_{y_2} P_{Y_1, Y2}(y_1, y_2)$  
     
 **2. Continuous case**  
-  1. cdf technique: $F_Y(y)= p(g(x_1, x_2) \leq y) \rightarrow f_Y(y)= F_Y'(y)  
+  1. cdf technique: $F_Y(y)= p(g(x_1, x_2) \leq y) \rightarrow f_Y(y)= F_Y'(y)$  
   2. transformation  
     + $X_1$, $X_2$의 jpdf $f_{X_1, X_2}(x_1, x_2)$와 support $S$  
     + 기본 변환은 discrete case와 똑같이 생각한다.  
