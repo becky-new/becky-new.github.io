@@ -20,7 +20,7 @@ use_math: true
 **목차**  
 [1. Distributions of Two Random Variables](#distributions-of-two-random-variables)  
 [2. Examples](#example-1)  
-[3. Theorem](#Theorem)  
+[3. Transformations: Bivariate r.v.s](#transformations)  
 [4. Discrete Random Variables](#discrete-random-variables)  
 [5. Continuous Random Variables](#continuous-random-variables)  
 [6. Bayes Theorem](#bayes-theorem)  
@@ -112,9 +112,30 @@ $f(x,y)= e^{-y} I(0 < x < y < \infty)$: jpdf(joint pdf) of $(X, Y)$일 때 mgf�
 * mgf of X: $M(t_1,0) = \frac{1}{1-t_1}$  
 * mgf of Y: $M(0, t_2)= \frac{1}{(1-t_2)^2}$  
 
+*적분 구간 신경 쓰기!*  
 
 
 ---  
+
+### Transformations  
+
+**in Bivariate R.V.s**  
+
+* goal: $f_{X_1, X_2}(x_1, x_2)$가 주어졌을 때, $Y= g(x_1, x_2)$의 PDF를 구하자!  
+
+* $X_1$과 $X_2$의 jpdf를 알고 있을 때, $Y= g(X_1, X_2)$의 분포를 구하는 방법에는 2가지가 있다.  
+  1. Find cdf of Y → take derivative  
+  2. Use transformation technique  
+  
+
+**1. discrete case**  
+  * $(X_1, X_2)$: discrete r.v. with jpdf $p_{X_1, X_2}(x_1, x_2)$ and support $S$  
+    * ![이미지](https://i.imgur.com/J7ugTTO.jpeg)  
+    
+    * $p_{Y_1, Y_2}(y_1, y_2) = p_{X_1, X_2}(w_1(y_1,y_2), w_2(y_1,y_2))$,  $(y_1, y_2) \in \mathscr{I}$  
+    * $\Rightarrow$ pmf of $Y_i$: $P_{Y_1}(y_1) = \sum_{y_2} P_{Y_1, Y2}(y_1, y_2)$  
+    
+
 
 
 
