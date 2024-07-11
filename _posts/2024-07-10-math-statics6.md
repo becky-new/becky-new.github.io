@@ -54,7 +54,7 @@ $E(X^m)$이 존재한다면 $k \leq m$에 대해 $E(X^k)$도 존재한다.
 
 * Markov's 부등식의 특수한 경우!  
 
-* $P(\vert X-\mu \vert \geq k\sigma$) \leq \frac{1}{k^2}$,  $\forall k>0$  
+* $P(\vert X-\mu \vert \geq k\sigma) \leq \frac{1}{k^2}$,  $\forall k>0$  
 * ![dlalwl](https://i.imgur.com/E1Utj2x.jpeg)  
 
 ---  
@@ -62,7 +62,7 @@ $E(X^m)$이 존재한다면 $k \leq m$에 대해 $E(X^k)$도 존재한다.
 ### Theorem 2  
 
 * $\phi$가 $(a, b)$에서 정의된 함수이고, $-\infty \leq a < b \leq \infty$라고 하자.  
-  + $\phi\[\gamma x + (1-\gamma)y \leq \gamma\phi(x) + (1-\gamma)\phi(y)$,  $\forall x, y in (a,b)$  and  $0<\gamma<1$  
+  + $\phi\[\gamma x + (1-\gamma)y \leq \gamma\phi(x) + (1-\gamma)\phi(y)$,  $\forall x, y$  in $(a,b)$  and  $0<\gamma<1$  
   + 위 식을 만족할 때, $\phi$는 convex 되었다고 한다.  
   + 부등호가 $<$이면 strictly convex 되었다고 한다.  
   
@@ -82,7 +82,7 @@ $E(X^m)$이 존재한다면 $k \leq m$에 대해 $E(X^k)$도 존재한다.
 
 * $\phi$ is convex on an open interval $I$  
 * $X$ is r.v. with support $S \subset I$ and $E(X) < \infty$  
-* then, $\phi\[E(X)] \leq E\[\phi(X)]  
+* then, $\phi\[E(X)] \leq E\[\phi(X)]$  
 
 * ![dlalwl](https://i.imgur.com/dCqRehN.jpeg)  
 
