@@ -68,6 +68,9 @@ use_math: true
     $= M_{X_1, X_2}(t_1, t_2)= E\[e^{t_1X_1 + t_2X_2}]$  
     : mgf of $\mathbf{X}$  
     
+  + $M_{X_1, X_2}(t_1, 0) = \iint e^{t_1x_1}f(x_1, x_2) \, dx_1dx_2 = \int e^{t_1x_1} \lbrace\int f(x_1, x_2) \, dx_2\rbrace \, dx_1$  
+    $= \int e^{t_1x_1} f_{X_1}(x_1) \, dx_1 = E\[e^{t_!x_!}] = M_{X_1}(t_1)$ : marginal mgf of $X_1$  
+    
     
   
 #### Example 1  
