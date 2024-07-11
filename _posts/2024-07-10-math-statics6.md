@@ -97,9 +97,17 @@ $X$를 $P(X= a_i) = \frac{1}{n}$,  $i=1,\cdots,n$에 대한 r.v.라고 하자.
 2. $-\log{x}$가 convex이므로, Jensen's ineq.를 사용할 수 있다.  
   + $-\log{\[E(X)]} = -\log{\bar{a}} \leq E\[-\log{X}]$  
   $= -\frac{1}{n}\sum\log{a_i} = -\log{a_1,\cdots,a_n}^{\frac{1}{n}}$  
-    * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}}$: geometric mean (GE, 기하 평균) $\leq \bar{a}$
+    * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}}$: geometric mean (GE, 기하 평균) $\leq \bar{a} = \frac{1}{n}\sum a_!$  
 
-3.
+3. $a_i$를 $\frac{1}{a_i}$로 대체하면, $(\frac{1}{a_1\cdots a_n})^{\frac{1}{n}} \leq \frac{1}{n}\sum \frac{1}{a_i}$  
+  * i.e. $(a_1,\cdots,a_n)^{\frac{1}{n}} \geq \frac{1}{\frac{1}{n}\sum \frac{1}{a_i}}$ : harmonic mean (HM, 조화 평균)  
+  
+따라서, **$HM \leq GM \leq AM$**  
+
+
+---  
+
+
 
 
 
