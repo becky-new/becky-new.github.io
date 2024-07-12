@@ -105,11 +105,26 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 * $E(\mathbf{X}) = (E(X_1),\cdots,E(X_n))^T$  
 * $E(\mathbf{W}) = \[E(W_{ij})]$, where $\mathbf{W}$ is mxn matrix of r.v.s  
 
+* ![dlalwl](https://i.imgur.com/Iwhbqf5.jpeg)  
+
 
 -
 * $E\[\mathbf{A}_1\mathbf{W}_1 + \mathbf{A}_2\mathbf{W}_2] = \mathbf{A}_1E\[\mathbf{W}_1] + \mathbf{A}_2E\[\mathbf{W}_2]$  
 * $E\[\mathbf{A}_1\mathbf{W}_1 \mathbf{B}] = \mathbf{A}_1E\[\mathbf{W}_1]\mathbf{B}$  
-  + 
+  + $\mathbf{W}_1$, $\mathbf{W}_2$: $mxn$ matrices of r.v.'s  
+  + $\mathbf{A}_1$, $\mathbf{A}_2$: $kxm$ matrices of constants  
+  + $\mathbf{B}$: $nxl$ matrix of constants  
+
+
+* $\mathbf{\mu} = E(\mathbf{X})$: mean of $\mathbf{X}$  
+* $Cov(\mathbf{X})= E\[(\mathbf{X}-\mathbf{\mu})(\mathbf{X}-\mathbf{\mu})']= E\[\mathbf{X}\mathbf{X}'] - \mathbf{\mu}\mathbf{\mu}' = \[\sigma_{ij}]$ : variance-covariance matrix (분산-공분산 행렬, nxn)  
+  + ![alwlal](https://i.imgur.com/ykmbhkF.jpeg)  
+
+
+* $Cov(\mathbf{AX}) = \mathbf{A}Cov(\mathbf{X})\mathbf{A}'$  
+
+* $Cov(\mathbf{X})$ is p.s.d. i.e. $\mathbf{a}Cov(\mathbf{X})\mathbf{a}' \geq 0$  
+
 
 
 
