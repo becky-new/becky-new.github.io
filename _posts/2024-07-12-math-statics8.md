@@ -35,7 +35,7 @@ use_math: true
 
 * 분자: joint / 분모: marginal  
 
-- 
+-
 
 * $P(a < X_2 < b \vert X_1=x_1) = \int_{a}^{b} f(x_2 \vert x_1) \, dx_2$  
 
@@ -43,7 +43,7 @@ use_math: true
 * conditional mean of $u(X_2)$: $E\[u(X_2)\vert x_1]= \int_{-\infty}^{\infty} u(x_2)f(x_2\vert x_1) \, dx_2$  
 * conditional var. of $X_2$: $Var(X_2\vert X_1)= E\[\lbrace X_2 - E(X_2\vert x_1)\rbrace^2 \vert x_1] = E({X_2}^2 \vert x_1) - E^2(X_2 \vert x_1)$  
 
-- 
+-
 
 * Double expectation theorem: $E\[E(X_2 \vert X_1)] = E(X_2)$  
 
@@ -69,12 +69,12 @@ use_math: true
 
 ### Indepentent Random Variables  
 
-* $X$와 $Y$가 독립이다: $f_{X,y}(x,y)= f_X(x)f_Y(y)$  
+* $X$와 $Y$가 독립이다: $f_{X,Y}(x,y)= f_X(x)f_Y(y)$  
 
-* $X$ and $Y$ is indep. $\Leftrightarrow f_{X,y}(x,y)= g(x)h(y)$, $g(x)$와 $h(y)$가 각각 x와 y에 대한 함수  
+* $X$ and $Y$ is indep. $\Leftrightarrow f_{X,Y}(x,y)= g(x)h(y)$, $g(x)$와 $h(y)$가 각각 x와 y에 대한 함수  
 
 
-* $X$ and $Y$ is indep. $\Leftrightarrow F_{X,y}(x,y) = F_X(x)F_Y(y)$  
+* $X$ and $Y$ is indep. $\Leftrightarrow F_{X,Y}(x,y) = F_X(x)F_Y(y)$  
 
 
 * $X$ and $Y$ is indep. $\Leftrightarrow P(a < X \leq b, c < Y \leq d) = P(a < X \leq b)P(c < Y \leq d)$  
