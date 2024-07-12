@@ -94,8 +94,8 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 * $F_{\mathbf{X}}(\mathbf{x}) = P(\mathbf{X} \leq \mathbf{x}) = P(X_1 \leq x_1, \cdots, X_n \leq x_n)$ : joint cdf  
 
 * $Y= u(X_1, \cdots, X_n) \Rightarrow E(Y)= \int \cdots \int u(x_1,\cdots,x_n)f_{X_1,\cdots,X_n}(x_1,\cdots,x_n) \, dx_1\cdots dx_n$  
-  + f_{2,\cdots,n\vert1}(x_2,\cdots,x_n \vert x_1) = \frac{f_{X_1,\cdots,X_n}(x_1,\cdots,x_n)}{f_1(x_1)}$  
-  + f_{1\vert 2,\cdots,n}(x_1 \vert x_2,\cdots,x_n) = \frac{f_{X_1,\cdots,X_n}(x_1,\cdots,x_n)}{f_{X_2,\cdots,X_n}(x_2,\cdots,x_n)}$  
+  + $f_{2,\cdots,n\vert1}(x_2,\cdots,x_n \vert x_1) = \frac{f_{X_1,\cdots,X_n}(x_1,\cdots,x_n)}{f_1(x_1)}$  
+  + $f_{1\vert 2,\cdots,n}(x_1 \vert x_2,\cdots,x_n) = \frac{f_{X_1,\cdots,X_n}(x_1,\cdots,x_n)}{f_{X_2,\cdots,X_n}(x_2,\cdots,x_n)}$  
 
 -
 * mutually indep.이면 반드시 pairwise indep.이지만, 반대는 성립하지 않음.  
