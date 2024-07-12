@@ -21,7 +21,7 @@ use_math: true
 [1. Conditional Distribution](#conditional-distribution)  
 [2. Correlation Coefficient](#correlation-coefficient)  
 [3. Indepentent Random Variables](#indepentent-random-variables)  
-[4. Discrete Random Variables](#discrete-random-variables)  
+[4. Extension to Several Random Variables](#extension-to-several-random-variables)  
 [5. Continuous Random Variables](#continuous-random-variables)  
 [6. Bayes Theorem](#bayes-theorem)  
 [7. Independent](#independent)  
@@ -30,8 +30,8 @@ use_math: true
 
 ### Conditional Distribution  
 
-* $p_{x_2 \vert x_1}(x_2 \vert x_1) = \frac{p_{x_1}(x_1)}{p_{x_1, x_2}(x_1, x_2)}$ : conditional pmf of $X_2$ given $X_1= x_1$  
-* $f_{x_2 \vert x_1}(x_2 \vert x_1) = \frac{f_{x_1}(x_1)}{f_{x_1, x_2}(x_1, x_2)}$ : conditional pdf of $X_2$ given $X_1= x_1$  
+* $p_{X_2 \vert X_1}(x_2 \vert x_1) = \frac{p_{X_1}(x_1)}{p_{X_1, X_2}(x_1, x_2)}$ : conditional pmf of $X_2$ given $X_1= x_1$  
+* $f_{X_2 \vert X_1}(x_2 \vert x_1) = \frac{f_{X_1}(x_1)}{f_{X_1, X_2}(x_1, x_2)}$ : conditional pdf of $X_2$ given $X_1= x_1$  
 
 * 분자: joint / 분모: marginal  
 
@@ -83,6 +83,25 @@ use_math: true
 * $X$ and $Y$ is indep. $\Rightarrow E\[u(X)v(Y)] = E\[u(X)]E\[v(Y)]$  
 
 * $X$ and $Y$ is indep. $\Leftrightarrow M(t_1, t_2)= M(t_1,0)M(0,t_2)$  
+
+
+---  
+
+### Extension to Several Random Variables  
+
+$\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector  
+
+* $F_{\mathbf{X}}(\mathbf{x}) = P(\mathbf{X} \leq \mathbf{x}) = P(X_1 \leq x_1, \cdots, X_n \leq x_n)$ : joint cdf  
+
+
+
+
+
+
+
+
+
+
 
 
 
