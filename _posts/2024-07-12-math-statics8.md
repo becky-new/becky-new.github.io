@@ -23,8 +23,6 @@ use_math: true
 [3. Indepentent Random Variables](#indepentent-random-variables)  
 [4. Extension to Several Random Variables](#extension-to-several-random-variables)  
 [5. Transformation of Random Vectors](#transformation-of-random-vectors)  
-[6. Bayes Theorem](#bayes-theorem)  
-[7. Independent](#independent)  
 
 ---  
 
