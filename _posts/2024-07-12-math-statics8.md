@@ -20,7 +20,7 @@ use_math: true
 **목차**  
 [1. Conditional Distribution](#conditional-distribution)  
 [2. Correlation Coefficient](#correlation-coefficient)  
-[3. Indepentent Random Variables](#indepentent-random-variables)  
+[3. Independent Random Variables](#independent-random-variables)  
 [4. Extension to Several Random Variables](#extension-to-several-random-variables)  
 [5. Transformation of Random Vectors](#transformation-of-random-vectors)  
 
@@ -65,7 +65,7 @@ use_math: true
 
 ---  
 
-### Indepentent Random Variables  
+### Independent Random Variables  
 
 * $X$와 $Y$가 독립이다: $f_{X,Y}(x,y)= f_X(x)f_Y(y)$  
 
