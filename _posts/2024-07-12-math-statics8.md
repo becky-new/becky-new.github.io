@@ -57,6 +57,12 @@ use_math: true
 
 
 
+* if $E(X\vert Y)$ is linear in $X$  
+  + $E(Y\vert X) = \mu_2 + \rho\frac{\sigma_2}{sigma_1}(X-\mu_1)$  
+  + $E\[Var(Y\vert X)]= {\sigma_2}^2(1-\rho^2)$  
+  
+
+
 
 
 
