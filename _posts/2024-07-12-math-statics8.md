@@ -138,7 +138,7 @@ $(X_1,\cdots,X_n) \rightarrow (Y_1,\cdots,Y_n)$  s.t. $y_1= u_1(x_1,\cdots,x_n)$
   * $x_1= w_1(y_1,\cdots,y_n$, $\cdots$, $x_n= w_n(y_1,\cdots,y_n)$  
   * ![dalwl](https://i.imgur.com/qYBE88Z.jpeg)  
   
-  * jpdf of $Y_1,\cdots,Y_n$: $g(y_1,\cdots,y_n)= \vert J\vert f(w_1(y_1,\cdots,y_n),\cdots,w_n(y_1,\cdots,y_n))$  
+    * jpdf of $Y_1,\cdots,Y_n$: $g(y_1,\cdots,y_n)= \vert J\vert f(w_1(y_1,\cdots,y_n),\cdots,w_n(y_1,\cdots,y_n))$  
   
 
 2. many-to-one transformation  
