@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[수리통계학 I] 8강 요약 정리"
+title:  "[수리통계학 I] 8, 9강 요약 정리"
 author: becky
 categories: [ datascience ]
 tags: [수리통계학, data science]
@@ -8,18 +8,19 @@ image: https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?q=80&w=1974&
 use_math: true
 ---
 
-## [수리통계학 I] Conditional Distribution and Expectation    
-### 8강 요약 정리  
+## [수리통계학 I] Conditional Distribution ~ Extension      
+### 8, 9강 요약 정리  
 
 **부산대학교 김충락 교수님의 2020년 1학기 KOCW 강의를 들으며 요약하는 글입니다.**  
 
 [8강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=2cea1b5099b279f6)  
+[9강 링크](http://www.kocw.net/home/enrolment/enrolmentView.do?cid=7c789810ade43386&lid=3f6f08d56688f46b)  
 
 
 **목차**  
 [1. Conditional Distribution](#conditional-distribution)  
-[2. Probability Functions](#probability-functions)  
-[3. Theorem](#Theorem)  
+[2. Correlation Coefficient](#correlation-coefficient)  
+[3. Indepentent Random Variables](#indepentent-random-variables)  
 [4. Discrete Random Variables](#discrete-random-variables)  
 [5. Continuous Random Variables](#continuous-random-variables)  
 [6. Bayes Theorem](#bayes-theorem)  
@@ -64,9 +65,24 @@ use_math: true
   + $E\[Var(Y\vert X)]= {\sigma_2}^2(1-\rho^2)$  
   
 
+---  
+
+### Indepentent Random Variables  
+
+* $X$와 $Y$가 독립이다: $f_{X,y}(x,y)= f_X(x)f_Y(y)$  
+
+* $X$ and $Y$ is indep. $\Leftrightarrow f_{X,y}(x,y)= g(x)h(y)$, $g(x)$와 $h(y)$가 각각 x와 y에 대한 함수  
 
 
+* $X$ and $Y$ is indep. $\Leftrightarrow F_{X,y}(x,y) = F_X(x)F_Y(y)$  
 
+
+* $X$ and $Y$ is indep. $\Leftrightarrow P(a < X \leq b, c < Y \leq d) = P(a < X \leq b)P(c < Y \leq d)$  
+
+
+* $X$ and $Y$ is indep. $\Rightarrow E\[u(X)v(Y)] = E\[u(X)]E\[v(Y)]$  
+
+* $X$ and $Y$ is indep. $\Leftrightarrow M(t_1, t_2)= M(t_1,0)M(0,t_2)$  
 
 
 
