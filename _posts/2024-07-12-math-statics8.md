@@ -34,6 +34,7 @@ use_math: true
 
 * 분자: joint / 분모: marginal  
 
+- 
 
 * $P(a < X_2 < b \vert X_1=x_1) = \int_{a}^{b} f(x_2 \vert x_1) \, dx_2$  
 
@@ -41,6 +42,7 @@ use_math: true
 * conditional mean of $u(X_2)$: $E\[u(X_2)\vert x_1]= \int_{-\infty}^{\infty} u(x_2)f(x_2\vert x_1) \, dx_2$  
 * conditional var. of $X_2$: $Var(X_2\vert X_1)= E\[\lbrace X_2 - E(X_2\vert x_1)\rbrace^2 \vert x_1] = E({X_2}^2 \vert x_1) - E^2(X_2 \vert x_1)$  
 
+- 
 
 * Double expectation theorem: $E\[E(X_2 \vert X_1)] = E(X_2)$  
 
@@ -53,12 +55,12 @@ use_math: true
 
 * $Cov(X, Y) := E\[(X_1-\mu_1)(Y-\mu_2)] = E(XY) - E(X)E(Y)$ : covariance(공분산) between X and Y  
 
-* Corr. coef.: $\rho := \frac{Cov(X, Y)}{\sigma_1\sigma_2} = \frac{E\[(X-\mu_1)(Y-\mu_2)]}{\sigma_1sigma_2}$  
+* Corr. coef.: $\rho := \frac{Cov(X, Y)}{\sigma_1\sigma_2} = \frac{E\[(X-\mu_1)(Y-\mu_2)]}{\sigma_1\sigma_2}$  
 
 
 
 * if $E(X\vert Y)$ is linear in $X$  
-  + $E(Y\vert X) = \mu_2 + \rho\frac{\sigma_2}{sigma_1}(X-\mu_1)$  
+  + $E(Y\vert X) = \mu_2 + \rho\frac{\sigma_2}{\sigma_1}(X-\mu_1)$  
   + $E\[Var(Y\vert X)]= {\sigma_2}^2(1-\rho^2)$  
   
 
