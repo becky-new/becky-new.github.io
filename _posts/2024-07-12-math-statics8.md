@@ -107,7 +107,9 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 
 
 -
-* $E\[(\mathbf{A})_1]$
+* $E\[\mathbf{A}_1\mathbf{W}_1 + \mathbf{A}_2\mathbf{W}_2] = \mathbf{A}_1E\[\mathbf{W}_1] + \mathbf{A}_2E\[\mathbf{W}_2]$  
+* $E\[\mathbf{A}_1\mathbf{W}_1 \mathbf{B}] = \mathbf{A}_1E\[\mathbf{W}_1]\mathbf{B}$  
+  + 
 
 
 
