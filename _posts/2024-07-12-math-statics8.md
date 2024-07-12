@@ -132,7 +132,7 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 ### Transformation of Random Vectors  
 
 
-$(X_1,\cdots,X_n) \rightarrow (Y_1,\cdots,Y_n)$  s.t. $y_1= u_1(x_1,\cdots,x_n$, $\cdots$, $y_n= u_n(x_1,\cdots,x_n)$  
+$(X_1,\cdots,X_n) \rightarrow (Y_1,\cdots,Y_n)$  s.t. $y_1= u_1(x_1,\cdots,x_n)$, $\cdots$, $y_n= u_n(x_1,\cdots,x_n)$  
 
 1. one-to-one transformation  
   * $x_1= w_1(y_1,\cdots,y_n$, $\cdots$, $x_n= w_n(y_1,\cdots,y_n)$  
@@ -142,17 +142,12 @@ $(X_1,\cdots,X_n) \rightarrow (Y_1,\cdots,Y_n)$  s.t. $y_1= u_1(x_1,\cdots,x_n$,
   
 
 2. many-to-one transformation  
-  * $\bigcup_{i=1}^{k} A_i = S$ and $A_i \cap A_j = \emptyset$인 exhaustive sets  
+  * $\bigcup_{i=1}^{k} A_i = S$ and $A_i \cap A_j = \emptyset$인 exhaustive sets $A_1,\cdots, A_n$  
   * $A_i \longrightarrow \mathscr{T}$ is 1-1  
   
-  * $g(y_1,\cdots,y_n)= \sum_{i=1}^{k} \vert J_i\vert g(w_{1i}(y_1,\cdots,y_n),\cdots,w_{ni}(y_1,\cdots,y_n))  
+  * $g(y_1,\cdots,y_n)= \sum_{i=1}^{k} \vert J_i\vert g(w_{1i}(y_1,\cdots,y_n),\cdots,w_{ni}(y_1,\cdots,y_n))$  
   
   
-
-
-
-
-
 
 
 
