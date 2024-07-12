@@ -145,7 +145,7 @@ $(X_1,\cdots,X_n) \rightarrow (Y_1,\cdots,Y_n)$  s.t. $y_1= u_1(x_1,\cdots,x_n)$
   * $\bigcup_{i=1}^{k} A_i = S$ and $A_i \cap A_j = \emptyset$인 exhaustive sets $A_1,\cdots, A_n$  
   * $A_i \longrightarrow \mathscr{T}$ is 1-1  
   
-  * $g(y_1,\cdots,y_n)= \sum_{i=1}^{k} \vert J_i\vert g(w_{1i}(y_1,\cdots,y_n),\cdots,w_{ni}(y_1,\cdots,y_n))$  
+  * $g(y_1,\cdots,y_n)= \sum_{i=1}^{k} \vert J_i\vert f(w_{1i}(y_1,\cdots,y_n),\cdots,w_{ni}(y_1,\cdots,y_n))$  
   
   
 
