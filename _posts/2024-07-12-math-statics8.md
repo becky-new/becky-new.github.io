@@ -22,7 +22,7 @@ use_math: true
 [2. Correlation Coefficient](#correlation-coefficient)  
 [3. Indepentent Random Variables](#indepentent-random-variables)  
 [4. Extension to Several Random Variables](#extension-to-several-random-variables)  
-[5. Continuous Random Variables](#continuous-random-variables)  
+[5. Transformation of Random Vectors](#transformation-of-random-vectors)  
 [6. Bayes Theorem](#bayes-theorem)  
 [7. Independent](#independent)  
 
@@ -111,9 +111,9 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 -
 * $E\[\mathbf{A}_1\mathbf{W}_1 + \mathbf{A}_2\mathbf{W}_2] = \mathbf{A}_1E\[\mathbf{W}_1] + \mathbf{A}_2E\[\mathbf{W}_2]$  
 * $E\[\mathbf{A}_1\mathbf{W}_1 \mathbf{B}] = \mathbf{A}_1E\[\mathbf{W}_1]\mathbf{B}$  
-  + $\mathbf{W}_1$, $\mathbf{W}_2$: $mxn$ matrices of r.v.'s  
-  + $\mathbf{A}_1$, $\mathbf{A}_2$: $kxm$ matrices of constants  
-  + $\mathbf{B}$: $nxl$ matrix of constants  
+  + $\mathbf{W}_1$, $\mathbf{W}_2$: mxn matrices of r.v.'s  
+  + $\mathbf{A}_1$, $\mathbf{A}_2$: kxm matrices of constants  
+  + $\mathbf{B}$: nxl matrix of constants  
 
 
 * $\mathbf{\mu} = E(\mathbf{X})$: mean of $\mathbf{X}$  
@@ -127,7 +127,27 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 
 
 
+---  
 
+### Transformation of Random Vectors  
+
+
+$(X_1,\cdots,X_n) \rightarrow (Y_1,\cdots,Y_n)$  s.t. $y_1= u_1(x_1,\cdots,x_n$, $\cdots$, $y_n= u_n(x_1,\cdots,x_n)$  
+
+1. one-to-one transformation  
+  * $x_1= w_1(y_1,\cdots,y_n$, $\cdots$, $x_n= w_n(y_1,\cdots,y_n)$  
+  * ![dalwl](https://i.imgur.com/qYBE88Z.jpeg)  
+  
+  * jpdf of $Y_1,\cdots,Y_n$: $g(y_1,\cdots,y_n)= \vert J\vert f(w_1(y_1,\cdots,y_n),\cdots,w_n(y_1,\cdots,y_n))$  
+  
+
+2. many-to-one transformation  
+  * $\bigcup_{i=1}^{k} A_i = S$ and $A_i \cap A_j = \emptyset$인 exhaustive sets  
+  * $A_i \longrightarrow \mathscr{T}$ is 1-1  
+  
+  * $g(y_1,\cdots,y_n)= \sum_{i=1}^{k} \vert J_i\vert g(w_{1i}(y_1,\cdots,y_n),\cdots,w_{ni}(y_1,\cdots,y_n))  
+  
+  
 
 
 
