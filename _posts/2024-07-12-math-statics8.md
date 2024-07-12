@@ -100,13 +100,14 @@ $\mathbf{X} = (X_1, \cdots, X_n)^T$: n-dim random vector
 -
 * mutually indep.이면 반드시 pairwise indep.이지만, 반대는 성립하지 않음.  
 
-* iid: independent and identically distributed  
+* **iid: independent and identically distributed**  
 
 * $E(\mathbf{X}) = (E(X_1),\cdots,E(X_n))^T$  
 * $E(\mathbf{W}) = \[E(W_{ij})]$, where $\mathbf{W}$ is mxn matrix of r.v.s  
 
 
-
+-
+* $E\[(\mathbf{A})_1]$
 
 
 
