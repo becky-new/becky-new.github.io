@@ -35,21 +35,21 @@ use_math: true
 2. Bernoulli trial (베르누이 시행)  
   * 매 결과가 S 혹은 F이며 $p= P(S)$의 확률이 일정하고, 각 시행이 독립인 일련의 실험.  
   
-  * $P(X_i= 1) = p$, P(X_i= 0) = 1-p$,  $0 \leq p \leq 1$  
-  * $X_i ~ B(n,p)$ 라고 부르고, n은 시행 횟수, p는 성공 확률이다.  
+    * $P(X_i= 1) = p$, P(X_i= 0) = 1-p$,  $0 \leq p \leq 1$  
+    * $X_i ~ B(n,p)$ 라고 부르고, n은 시행 횟수, p는 성공 확률이다.  
   
   
-  * $E(X_i)= \sum_{x_i=0}^{1} X_if(x_i) = 0(1-p) + p = p$  
-  * $Var(X_i)= E(X_i^2)-E^2(X_i) = p(1-p)$  
+    * $E(X_i)= \sum_{x_i=0}^{1} X_if(x_i) = 0(1-p) + p = p$  
+    * $Var(X_i)= E(X_i^2)-E^2(X_i) = p(1-p)$  
   
-  * pmf of X: $P_X(x)= p^x(1-p)^{1-x} I(x=0, 1)$  
+    * pmf of X: $P_X(x)= p^x(1-p)^{1-x} I(x=0, 1)$  
   
   
 3. Pmf of binomial distribution  
   * $X_1, \cdots, X_n$을 bernoulli trials이라고 하자.  
   * $X= \sum_{i=1}^{n} X_1$는 n번 시행 중 성공의 횟수를 의미한다.  
   
-  * $p(x)= {n\choose x}p^x (1-p)^{n-x} I(x= 0, 1, 2, \cdots, n)$  
+    * $p(x)= {n\choose x}p^x (1-p)^{n-x} I(x= 0, 1, 2, \cdots, n)$  
   
   
   
