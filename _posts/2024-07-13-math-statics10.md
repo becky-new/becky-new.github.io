@@ -49,12 +49,12 @@ use_math: true
   * $X_1, \cdots, X_n$을 bernoulli trials이라고 하자.  
   * $X= \sum_{i=1}^{n} X_1$는 n번 시행 중 성공의 횟수를 의미한다.  
   
-  * $p(x)= {n\choose x)p^x (1-p)^{n-x} I(x= 0, 1, 2, \cdots, n)$  
+  * $p(x)= {n\choose x}p^x (1-p)^{n-x} I(x= 0, 1, 2, \cdots, n)$  
   
   
   
 4. mgf  
-  * $M(t)= E\[e^{tX]$  
+  * $M(t)= E\[e^{tX}]$  
         $= \sum_{x=0}^{n} e^{tx}{n\choose x} p^x(1-p)^{n-x}= \sum_{x=0}^{n}{n\choose x} (pe^t)^x(1-p)^{n-x}$  
         $= \[(1-p) + pe^t]^n$  
    
