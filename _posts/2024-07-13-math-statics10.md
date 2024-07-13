@@ -52,8 +52,11 @@ use_math: true
   * $p(x)= {n\choose x)p^x (1-p)^{n-x} I(x= 0, 1, 2, \cdots, n)$  
   
   
+  
 4. mgf  
-  * 
+  * $M(t)= E\[e^{tX]$  
+        $= \sum_{x=0}^{n} e^{tx}{n\choose x} p^x(1-p)^{n-x}= \sum_{x=0}^{n}{n\choose x} (pe^t)^x(1-p)^{n-x}$  
+        $= \[(1-p) + pe^t]^n$  
    
 
 
